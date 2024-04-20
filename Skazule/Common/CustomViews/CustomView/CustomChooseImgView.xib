@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomChooseImgView" customModule="Skazule" customModuleProvider="target">
+            <connections>
+                <outlet property="cameraBtnBackView" destination="U3d-DP-hcX" id="yZC-SE-GEs"/>
+                <outlet property="cameraButton" destination="hgb-69-6uf" id="Abb-Zx-sNQ"/>
+                <outlet property="cancleButton" destination="mXj-3s-VjL" id="LdA-Xw-pMR"/>
+                <outlet property="fileBtnBackView" destination="bj3-hZ-eMX" id="kgN-a1-zKh"/>
+                <outlet property="fileButton" destination="cw4-BG-wah" id="EkQ-tH-UHJ"/>
+                <outlet property="gallaryBtnBackView" destination="Atg-gE-kix" id="MIt-A1-XEt"/>
+                <outlet property="gallaryButton" destination="u2R-Eh-Zcm" id="0OR-0A-FJa"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4gQ-19-WO9" customClass="CardView" customModule="Skazule" customModuleProvider="target">
+                    <rect key="frame" x="77" y="378" width="260" height="140"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mXj-3s-VjL">
+                            <rect key="frame" x="230" y="0.0" width="30" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="RtN-rP-EAk"/>
+                                <constraint firstAttribute="height" constant="30" id="wDk-ft-1Vz"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                            <state key="normal" image="cross">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="cancelButtonAction:" destination="-1" eventType="touchUpInside" id="kbE-MW-kVO"/>
+                            </connections>
+                        </button>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="oYm-sg-qdk">
+                            <rect key="frame" x="35" y="30" width="190" height="80"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U3d-DP-hcX" customClass="CardView" customModule="Skazule" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camera-1" translatesAutoresizingMaskIntoConstraints="NO" id="DQR-ZE-bPG">
+                                            <rect key="frame" x="20" y="20" width="40" height="40"/>
+                                            <color key="tintColor" name="ButtonColor"/>
+                                        </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgb-69-6uf">
+                                            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstItem="DQR-ZE-bPG" firstAttribute="centerX" secondItem="U3d-DP-hcX" secondAttribute="centerX" id="Fio-LO-zO9"/>
+                                        <constraint firstItem="DQR-ZE-bPG" firstAttribute="centerY" secondItem="U3d-DP-hcX" secondAttribute="centerY" id="InQ-N0-Dq8"/>
+                                        <constraint firstItem="hgb-69-6uf" firstAttribute="centerX" secondItem="U3d-DP-hcX" secondAttribute="centerX" id="TWX-ih-IDO"/>
+                                        <constraint firstItem="hgb-69-6uf" firstAttribute="height" secondItem="U3d-DP-hcX" secondAttribute="height" id="WRg-0f-7j6"/>
+                                        <constraint firstItem="hgb-69-6uf" firstAttribute="centerY" secondItem="U3d-DP-hcX" secondAttribute="centerY" id="eAe-sG-Lzy"/>
+                                        <constraint firstAttribute="width" constant="80" id="mMU-7h-xWV"/>
+                                        <constraint firstItem="hgb-69-6uf" firstAttribute="width" secondItem="U3d-DP-hcX" secondAttribute="width" id="zlY-xr-u2M"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetWidth">
+                                            <integer key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetHeight">
+                                            <integer key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                            <color key="value" systemColor="systemGray5Color"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="maskToBounds" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Atg-gE-kix" customClass="CardView" customModule="Skazule" customModuleProvider="target">
+                                    <rect key="frame" x="110" y="0.0" width="80" height="80"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gallery" translatesAutoresizingMaskIntoConstraints="NO" id="FQ3-Mb-wYR">
+                                            <rect key="frame" x="20" y="20" width="40" height="40"/>
+                                            <color key="tintColor" name="ButtonColor"/>
+                                        </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u2R-Eh-Zcm">
+                                            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstItem="u2R-Eh-Zcm" firstAttribute="height" secondItem="Atg-gE-kix" secondAttribute="height" id="ON2-vN-xuF"/>
+                                        <constraint firstItem="u2R-Eh-Zcm" firstAttribute="width" secondItem="Atg-gE-kix" secondAttribute="width" id="jmK-su-PNv"/>
+                                        <constraint firstItem="FQ3-Mb-wYR" firstAttribute="centerY" secondItem="Atg-gE-kix" secondAttribute="centerY" id="ljR-yX-4Nd"/>
+                                        <constraint firstItem="u2R-Eh-Zcm" firstAttribute="centerX" secondItem="Atg-gE-kix" secondAttribute="centerX" id="wf4-Jr-UG6"/>
+                                        <constraint firstItem="FQ3-Mb-wYR" firstAttribute="centerX" secondItem="Atg-gE-kix" secondAttribute="centerX" id="zea-wt-Ktz"/>
+                                        <constraint firstItem="u2R-Eh-Zcm" firstAttribute="centerY" secondItem="Atg-gE-kix" secondAttribute="centerY" id="zmr-z6-M5p"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetWidth">
+                                            <integer key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetHeight">
+                                            <integer key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                            <color key="value" systemColor="systemGray5Color"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="maskToBounds" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bj3-hZ-eMX" customClass="CardView" customModule="Skazule" customModuleProvider="target">
+                                    <rect key="frame" x="190" y="0.0" width="80" height="80"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="document" translatesAutoresizingMaskIntoConstraints="NO" id="UsU-6c-fIh">
+                                            <rect key="frame" x="24" y="24" width="32" height="32"/>
+                                            <color key="tintColor" name="ButtonColor"/>
+                                        </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cw4-BG-wah">
+                                            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstItem="cw4-BG-wah" firstAttribute="centerY" secondItem="bj3-hZ-eMX" secondAttribute="centerY" id="1lE-Dh-dCw"/>
+                                        <constraint firstItem="cw4-BG-wah" firstAttribute="centerX" secondItem="bj3-hZ-eMX" secondAttribute="centerX" id="DJN-T0-7tw"/>
+                                        <constraint firstItem="cw4-BG-wah" firstAttribute="height" secondItem="bj3-hZ-eMX" secondAttribute="height" id="FaJ-WE-2Oc"/>
+                                        <constraint firstItem="cw4-BG-wah" firstAttribute="width" secondItem="bj3-hZ-eMX" secondAttribute="width" id="aRS-Z7-LZa"/>
+                                        <constraint firstItem="UsU-6c-fIh" firstAttribute="centerY" secondItem="bj3-hZ-eMX" secondAttribute="centerY" id="hJU-N7-Q3r"/>
+                                        <constraint firstItem="UsU-6c-fIh" firstAttribute="centerX" secondItem="bj3-hZ-eMX" secondAttribute="centerX" id="qZx-r2-E0A"/>
+                                        <constraint firstAttribute="width" constant="80" id="zV9-Yt-lxV"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetWidth">
+                                            <integer key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetHeight">
+                                            <integer key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                            <color key="value" systemColor="systemGray5Color"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="maskToBounds" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="80" id="OGw-Lc-B6p"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="260" id="Fdb-Te-W3w"/>
+                        <constraint firstItem="mXj-3s-VjL" firstAttribute="top" secondItem="4gQ-19-WO9" secondAttribute="top" id="Fuo-ex-k2v"/>
+                        <constraint firstItem="oYm-sg-qdk" firstAttribute="centerY" secondItem="4gQ-19-WO9" secondAttribute="centerY" id="MY2-cs-ceJ"/>
+                        <constraint firstAttribute="height" constant="140" id="izq-4P-HZd"/>
+                        <constraint firstItem="oYm-sg-qdk" firstAttribute="centerX" secondItem="4gQ-19-WO9" secondAttribute="centerX" id="juc-xG-bWg"/>
+                        <constraint firstAttribute="trailing" secondItem="mXj-3s-VjL" secondAttribute="trailing" id="zrG-Ut-R2O"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="maskToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                            <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetHeight">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                            <real key="value" value="0.5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="4gQ-19-WO9" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="lGE-2p-N3v"/>
+                <constraint firstItem="4gQ-19-WO9" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="vOo-0K-c3Z"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="65"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="camera-1" width="40" height="40"/>
+        <image name="cross" width="11.5" height="13"/>
+        <image name="document" width="32" height="32"/>
+        <image name="gallery" width="40" height="40"/>
+        <namedColor name="ButtonColor">
+            <color red="0.039215686274509803" green="0.29411764705882354" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

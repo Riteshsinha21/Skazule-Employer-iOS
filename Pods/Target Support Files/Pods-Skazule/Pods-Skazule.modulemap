@@ -1,0 +1,6 @@
+framework module Pods_Skazule {
+  umbrella header "Pods-Skazule-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,2318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		311D7D762ABAC9A300FB7EB9 /* CreateCompanyScedulerSetupNewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311D7D742ABAC9A300FB7EB9 /* CreateCompanyScedulerSetupNewVC.swift */; };
+		311D7D772ABAC9A300FB7EB9 /* CreateCompanyScedulerSetupNewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 311D7D752ABAC9A300FB7EB9 /* CreateCompanyScedulerSetupNewVC.xib */; };
+		3122B6722A821CA7002E6216 /* PushNotificationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3122B6702A821CA7002E6216 /* PushNotificationSender.swift */; };
+		3122B6732A821CA7002E6216 /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3122B6712A821CA7002E6216 /* PushNotificationManager.swift */; };
+		313490D42A03A7190025BF15 /* SchedulerBackUpListScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313490D32A03A7190025BF15 /* SchedulerBackUpListScreenController.swift */; };
+		3136468C2A5EB4CA00364C70 /* ChatViewModelBackUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3136468B2A5EB4CA00364C70 /* ChatViewModelBackUp.swift */; };
+		3139C7CF2A08DDBC00DEFF33 /* CustomAppliedShiftEmployeeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3139C7CE2A08DDBC00DEFF33 /* CustomAppliedShiftEmployeeListView.swift */; };
+		3139C7D12A08DE1F00DEFF33 /* CustomAppliedShiftEmployeeListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3139C7D02A08DE1F00DEFF33 /* CustomAppliedShiftEmployeeListView.xib */; };
+		3141BD982AD0444C00A3A01C /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3141BD972AD0444C00A3A01C /* File.swift */; };
+		31426E592AA7595C004AC5B5 /* EmployeeDocumentsShareHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31426E572AA7595C004AC5B5 /* EmployeeDocumentsShareHistoryVC.swift */; };
+		31426E5A2AA7595C004AC5B5 /* EmployeeDocumentsShareHistoryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31426E582AA7595C004AC5B5 /* EmployeeDocumentsShareHistoryVC.xib */; };
+		3142E7DA2A72818200710FF1 /* WorkChatGroupInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3142E7D82A72818200710FF1 /* WorkChatGroupInfoVC.swift */; };
+		3142E7DB2A72818200710FF1 /* WorkChatGroupInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3142E7D92A72818200710FF1 /* WorkChatGroupInfoVC.xib */; };
+		3142E7DD2A729A8500710FF1 /* WCSettingPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3142E7DC2A729A8500710FF1 /* WCSettingPopUp.swift */; };
+		3142E7DF2A729A9500710FF1 /* WCSettingPopUp.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3142E7DE2A729A9500710FF1 /* WCSettingPopUp.xib */; };
+		3144EB212A24867E00B89472 /* CustomEditTimeTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3144EB202A24867E00B89472 /* CustomEditTimeTrackingView.swift */; };
+		3144EB232A24869800B89472 /* CustomEditTimeTrackingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3144EB222A24869800B89472 /* CustomEditTimeTrackingView.xib */; };
+		314F7E7F2A65165000F36EF4 /* ChatViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314F7E7E2A65164F00F36EF4 /* ChatViewModelTest.swift */; };
+		314F7E812A65196F00F36EF4 /* WorkChatBackUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314F7E802A65196F00F36EF4 /* WorkChatBackUpVC.swift */; };
+		315583ED2A94AA670096BF3D /* CustomUpdateBonusPopUp.xib in Resources */ = {isa = PBXBuildFile; fileRef = 315583EC2A94AA670096BF3D /* CustomUpdateBonusPopUp.xib */; };
+		315583EF2A94AAB20096BF3D /* CustomUpdateBonusPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315583EE2A94AAB20096BF3D /* CustomUpdateBonusPopUp.swift */; };
+		315B4F502A0E314A00CAF6C5 /* EmployeeTimeTrackingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315B4F4E2A0E314A00CAF6C5 /* EmployeeTimeTrackingCell.swift */; };
+		315B4F512A0E314A00CAF6C5 /* EmployeeTimeTrackingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 315B4F4F2A0E314A00CAF6C5 /* EmployeeTimeTrackingCell.xib */; };
+		315B4F542A0E544800CAF6C5 /* TimeTrackingDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315B4F522A0E544800CAF6C5 /* TimeTrackingDetailVC.swift */; };
+		315B4F552A0E544800CAF6C5 /* TimeTrackingDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 315B4F532A0E544800CAF6C5 /* TimeTrackingDetailVC.xib */; };
+		315F84C72B4BE3C10098F162 /* WorkChatGroupInfoVCOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315F84C62B4BE3C10098F162 /* WorkChatGroupInfoVCOld.swift */; };
+		3162DAB82A2A27D6001CBABE /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3162DAB62A2A27D6001CBABE /* UIDevice+Extension.swift */; };
+		3162DAB92A2A27D6001CBABE /* UIFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3162DAB72A2A27D6001CBABE /* UIFontSize.swift */; };
+		3165AA972A93530C0075B1D4 /* CountryPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3165AA952A93530C0075B1D4 /* CountryPickerCell.swift */; };
+		3165AA982A93530C0075B1D4 /* CountryPickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3165AA962A93530C0075B1D4 /* CountryPickerCell.xib */; };
+		3165AA9B2A9353900075B1D4 /* CountryPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3165AA992A9353900075B1D4 /* CountryPickerVC.swift */; };
+		3165AA9C2A9353900075B1D4 /* CountryPickerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3165AA9A2A9353900075B1D4 /* CountryPickerVC.xib */; };
+		3168A35D2A30A66700BF0B66 /* ChatEmployeeListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3168A35B2A30A66700BF0B66 /* ChatEmployeeListVC.swift */; };
+		3168A35E2A30A66700BF0B66 /* ChatEmployeeListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3168A35C2A30A66700BF0B66 /* ChatEmployeeListVC.xib */; };
+		3172E8AD2AB86A80000D6983 /* CreateCompanyEmployeeSetupNewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3172E8AB2AB86A7F000D6983 /* CreateCompanyEmployeeSetupNewVC.swift */; };
+		3172E8AE2AB86A80000D6983 /* CreateCompanyEmployeeSetupNewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3172E8AC2AB86A7F000D6983 /* CreateCompanyEmployeeSetupNewVC.xib */; };
+		317E3B302A56A79A00BAE62E /* WCEmployeeListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317E3B2E2A56A79A00BAE62E /* WCEmployeeListVC.swift */; };
+		317E3B312A56A79A00BAE62E /* WCEmployeeListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 317E3B2F2A56A79A00BAE62E /* WCEmployeeListVC.xib */; };
+		31807C252A98A1410060B551 /* SREmployeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31807C242A98A1410060B551 /* SREmployeeModel.swift */; };
+		31807C272A98A3520060B551 /* SREmployeePositionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31807C262A98A3520060B551 /* SREmployeePositionModel.swift */; };
+		31807C292A98A4370060B551 /* SREmployeeDocumentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31807C282A98A4370060B551 /* SREmployeeDocumentModel.swift */; };
+		31807C2B2A98AA3B0060B551 /* SRSchedulerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31807C2A2A98AA3B0060B551 /* SRSchedulerModel.swift */; };
+		31807C2D2A98B61F0060B551 /* SRTimeOffRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31807C2C2A98B61F0060B551 /* SRTimeOffRequestModel.swift */; };
+		31807C2F2A98B6DF0060B551 /* SRTimeTrackingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31807C2E2A98B6DF0060B551 /* SRTimeTrackingModel.swift */; };
+		31807C312A98B7610060B551 /* SRProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31807C302A98B7610060B551 /* SRProfileModel.swift */; };
+		31807C332A98B80B0060B551 /* SREmployerBonusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31807C322A98B80B0060B551 /* SREmployerBonusModel.swift */; };
+		31807C352A98B8B60060B551 /* SREmployerBenefitsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31807C342A98B8B60060B551 /* SREmployerBenefitsModel.swift */; };
+		31807C372A98C14C0060B551 /* SRDashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31807C362A98C14C0060B551 /* SRDashboardModel.swift */; };
+		318233342A7B884800A1808C /* WCAddParticipantPopUP.xib in Resources */ = {isa = PBXBuildFile; fileRef = 318233332A7B884800A1808C /* WCAddParticipantPopUP.xib */; };
+		318233362A7B887C00A1808C /* WCAddParticipantPopUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318233352A7B887C00A1808C /* WCAddParticipantPopUP.swift */; };
+		31827EAD2A8E1DB90048CBD9 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31827EAB2A8E1DB90048CBD9 /* NotificationVC.swift */; };
+		31827EAE2A8E1DB90048CBD9 /* NotificationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31827EAC2A8E1DB90048CBD9 /* NotificationVC.xib */; };
+		31827EB12A8E1DF10048CBD9 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31827EAF2A8E1DF10048CBD9 /* NotificationCell.swift */; };
+		31827EB22A8E1DF10048CBD9 /* NotificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31827EB02A8E1DF10048CBD9 /* NotificationCell.xib */; };
+		318483102A86535400446DB6 /* WCViewImagePopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3184830F2A86535400446DB6 /* WCViewImagePopUp.swift */; };
+		318483122A86536F00446DB6 /* WCViewImagePopUp.xib in Resources */ = {isa = PBXBuildFile; fileRef = 318483112A86536F00446DB6 /* WCViewImagePopUp.xib */; };
+		318B50402B5683B2000EF151 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 318B503F2B5683B2000EF151 /* GoogleService-Info.plist */; };
+		318C64B22A56F1DA0038D624 /* WCCreateGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318C64B02A56F1DA0038D624 /* WCCreateGroupVC.swift */; };
+		318C64B32A56F1DA0038D624 /* WCCreateGroupVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 318C64B12A56F1DA0038D624 /* WCCreateGroupVC.xib */; };
+		318D471B2A4C18A900DB4032 /* WorkChatDetailChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318D47192A4C18A900DB4032 /* WorkChatDetailChatVC.swift */; };
+		318D471C2A4C18A900DB4032 /* WorkChatDetailChatVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 318D471A2A4C18A900DB4032 /* WorkChatDetailChatVC.xib */; };
+		318D471E2A4C463500DB4032 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318D471D2A4C463500DB4032 /* UserViewModel.swift */; };
+		318D47202A4C464100DB4032 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318D471F2A4C464000DB4032 /* ChatViewModel.swift */; };
+		318D47222A4C474400DB4032 /* Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318D47212A4C474400DB4032 /* Encodable.swift */; };
+		318D47242A4C492500DB4032 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318D47232A4C492400DB4032 /* NSObjectExtension.swift */; };
+		318D63782A8F8B2D000B65E1 /* TodayScheduledOpenShiftListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318D63762A8F8B2D000B65E1 /* TodayScheduledOpenShiftListVC.swift */; };
+		318D63792A8F8B2D000B65E1 /* TodayScheduledOpenShiftListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 318D63772A8F8B2D000B65E1 /* TodayScheduledOpenShiftListVC.xib */; };
+		318D637C2A8F908F000B65E1 /* TodayOpenShiftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318D637A2A8F908F000B65E1 /* TodayOpenShiftCell.swift */; };
+		318D637D2A8F908F000B65E1 /* TodayOpenShiftCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 318D637B2A8F908F000B65E1 /* TodayOpenShiftCell.xib */; };
+		318EEC592A97967400CDBF21 /* EmployeeListImportPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318EEC582A97967400CDBF21 /* EmployeeListImportPopUp.swift */; };
+		318EEC5B2A97969300CDBF21 /* EmployeeListImportPopUp.xib in Resources */ = {isa = PBXBuildFile; fileRef = 318EEC5A2A97969300CDBF21 /* EmployeeListImportPopUp.xib */; };
+		3192383E2A25D80D00135CFB /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3192383C2A25D80D00135CFB /* ProfileVC.swift */; };
+		3192383F2A25D80D00135CFB /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3192383D2A25D80D00135CFB /* ProfileVC.xib */; };
+		319238422A25D83B00135CFB /* UpdateProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319238402A25D83B00135CFB /* UpdateProfileVC.swift */; };
+		319238432A25D83B00135CFB /* UpdateProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 319238412A25D83B00135CFB /* UpdateProfileVC.xib */; };
+		3195C3EB2A30799100E847BB /* FirebaseUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3195C3E52A30799000E847BB /* FirebaseUser.swift */; };
+		3195C3EC2A30799100E847BB /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3195C3E62A30799000E847BB /* Message.swift */; };
+		3195C3EF2A307FC900E847BB /* SenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3195C3ED2A307FC900E847BB /* SenderCell.swift */; };
+		3195C3F02A307FC900E847BB /* SenderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3195C3EE2A307FC900E847BB /* SenderCell.xib */; };
+		3195C3F32A307FEE00E847BB /* SenderdocCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3195C3F12A307FEE00E847BB /* SenderdocCell.swift */; };
+		3195C3F42A307FEE00E847BB /* SenderdocCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3195C3F22A307FEE00E847BB /* SenderdocCell.xib */; };
+		3195C3F72A30802700E847BB /* SenderImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3195C3F52A30802700E847BB /* SenderImageCell.swift */; };
+		3195C3F82A30802700E847BB /* SenderImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3195C3F62A30802700E847BB /* SenderImageCell.xib */; };
+		3195C3FB2A30807B00E847BB /* ReceiverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3195C3F92A30807B00E847BB /* ReceiverCell.swift */; };
+		3195C3FC2A30807B00E847BB /* ReceiverCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3195C3FA2A30807B00E847BB /* ReceiverCell.xib */; };
+		3195C3FF2A30809E00E847BB /* ReceiverdocCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3195C3FD2A30809E00E847BB /* ReceiverdocCell.swift */; };
+		3195C4002A30809E00E847BB /* ReceiverdocCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3195C3FE2A30809E00E847BB /* ReceiverdocCell.xib */; };
+		3195C4032A3080D200E847BB /* ReceiverImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3195C4012A3080D200E847BB /* ReceiverImageCell.swift */; };
+		3195C4042A3080D200E847BB /* ReceiverImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3195C4022A3080D200E847BB /* ReceiverImageCell.xib */; };
+		319C0ABB2A4AC33F00D7B6BA /* WorkChatEmployeeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319C0AB92A4AC33F00D7B6BA /* WorkChatEmployeeListCell.swift */; };
+		319C0ABC2A4AC33F00D7B6BA /* WorkChatEmployeeListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 319C0ABA2A4AC33F00D7B6BA /* WorkChatEmployeeListCell.xib */; };
+		319E80672A26238100365987 /* ProfilePurchasedListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319E80652A26238100365987 /* ProfilePurchasedListCell.swift */; };
+		319E80682A26238100365987 /* ProfilePurchasedListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 319E80662A26238100365987 /* ProfilePurchasedListCell.xib */; };
+		31B3467F2A84C8C100A2C638 /* UIImage + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B3467E2A84C8C100A2C638 /* UIImage + Extension.swift */; };
+		31DE32182A52E4FF001A69EC /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE32172A52E4FE001A69EC /* Date.swift */; };
+		31DE321A2A52E9BB001A69EC /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE32192A52E9BB001A69EC /* UIView.swift */; };
+		31FA2FD02A025043008CF240 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 31FA2FCF2A025043008CF240 /* Kingfisher */; settings = {ATTRIBUTES = (Required, ); }; };
+		31FA2FD22A025126008CF240 /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FA2FD12A025126008CF240 /* UIImageView + Extension.swift */; };
+		450F1A5629657B7700472ECD /* CreateCompanyScheduledPositionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450F1A5429657B7700472ECD /* CreateCompanyScheduledPositionsViewController.swift */; };
+		450F1A5729657B7700472ECD /* CreateCompanyScheduledPositionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 450F1A5529657B7700472ECD /* CreateCompanyScheduledPositionsViewController.xib */; };
+		450F1A5A29659D3200472ECD /* CreateCompanyScheduledCustomPositionsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450F1A5829659D3200472ECD /* CreateCompanyScheduledCustomPositionsTableCell.swift */; };
+		450F1A5B29659D3200472ECD /* CreateCompanyScheduledCustomPositionsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 450F1A5929659D3200472ECD /* CreateCompanyScheduledCustomPositionsTableCell.xib */; };
+		451304A529C8895C008F1B15 /* TimeOffRequestDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451304A329C8895C008F1B15 /* TimeOffRequestDetailVC.swift */; };
+		451304A629C8895C008F1B15 /* TimeOffRequestDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 451304A429C8895C008F1B15 /* TimeOffRequestDetailVC.xib */; };
+		4517178229C98B0D00F0C9AC /* CustomEmployeeListDocShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4517178129C98B0D00F0C9AC /* CustomEmployeeListDocShareView.swift */; };
+		4517178429C98B1D00F0C9AC /* CustomEmployeeListDocShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4517178329C98B1D00F0C9AC /* CustomEmployeeListDocShareView.xib */; };
+		4528B6E129508B5900616631 /* EmployeeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4528B6DF29508B5900616631 /* EmployeeDetailVC.swift */; };
+		4528B6E229508B5900616631 /* EmployeeDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4528B6E029508B5900616631 /* EmployeeDetailVC.xib */; };
+		4528B6E52950B35400616631 /* EmployeeDetailBenefitsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4528B6E32950B35400616631 /* EmployeeDetailBenefitsCell.swift */; };
+		4528B6E62950B35400616631 /* EmployeeDetailBenefitsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4528B6E42950B35400616631 /* EmployeeDetailBenefitsCell.xib */; };
+		453C016F2962D45B00720F83 /* CustomAddTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453C016E2962D45B00720F83 /* CustomAddTagView.swift */; };
+		453C01712962D46E00720F83 /* CustomAddTagView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453C01702962D46E00720F83 /* CustomAddTagView.xib */; };
+		453FD8F52949E5710003EBCF /* CustomWeekListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453FD8F42949E5710003EBCF /* CustomWeekListView.swift */; };
+		453FD8F72949F3890003EBCF /* CustomChooseImgView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453FD8F62949F3890003EBCF /* CustomChooseImgView.xib */; };
+		453FD8F92949F39F0003EBCF /* CustomChooseImgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453FD8F82949F39F0003EBCF /* CustomChooseImgView.swift */; };
+		45587C1A295C5E4900B503A3 /* EmployeeShiftTempBenefitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45587C18295C5E4900B503A3 /* EmployeeShiftTempBenefitCell.swift */; };
+		45587C1B295C5E4900B503A3 /* EmployeeShiftTempBenefitCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45587C19295C5E4900B503A3 /* EmployeeShiftTempBenefitCell.xib */; };
+		45587C1D295C6FAC00B503A3 /* CustomAddShiftTempView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45587C1C295C6FAC00B503A3 /* CustomAddShiftTempView.swift */; };
+		45587C1F295C6FC400B503A3 /* CustomAddShiftTempView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45587C1E295C6FC300B503A3 /* CustomAddShiftTempView.xib */; };
+		45587C21295C6FEC00B503A3 /* CustomAddBenefitsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45587C20295C6FEC00B503A3 /* CustomAddBenefitsView.xib */; };
+		45587C23295C701100B503A3 /* CustomAddBenefitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45587C22295C701100B503A3 /* CustomAddBenefitsView.swift */; };
+		456BB1422983F97C0004E7E7 /* AssignBonusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456BB1402983F97B0004E7E7 /* AssignBonusVC.swift */; };
+		456BB1432983F97C0004E7E7 /* AssignBonusVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 456BB1412983F97C0004E7E7 /* AssignBonusVC.xib */; };
+		456ECC67293F3CB70008DB0C /* CompanyRegistrationCompleteVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456ECC65293F3CB70008DB0C /* CompanyRegistrationCompleteVc.swift */; };
+		456ECC68293F3CB70008DB0C /* CompanyRegistrationCompleteVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 456ECC66293F3CB70008DB0C /* CompanyRegistrationCompleteVc.xib */; };
+		4573157829A7510F0074A2F7 /* WebKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4573157629A7510F0074A2F7 /* WebKitViewController.swift */; };
+		4573157929A7510F0074A2F7 /* WebKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4573157729A7510F0074A2F7 /* WebKitViewController.xib */; };
+		457806D3292776FF00355B0C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457806D1292776FF00355B0C /* LoginVC.swift */; };
+		457806D4292776FF00355B0C /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 457806D2292776FF00355B0C /* LoginVC.xib */; };
+		457806D72927784100355B0C /* LoginVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457806D62927784100355B0C /* LoginVCExtension.swift */; };
+		458E680029798339003F8466 /* EmployeeDocumentsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458E67FE29798339003F8466 /* EmployeeDocumentsTableCell.swift */; };
+		458E680129798339003F8466 /* EmployeeDocumentsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 458E67FF29798339003F8466 /* EmployeeDocumentsTableCell.xib */; };
+		45950A0129ADF31E0029BF1E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459509FF29ADF31E0029BF1E /* SearchViewController.swift */; };
+		45950A0229ADF31E0029BF1E /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45950A0029ADF31E0029BF1E /* SearchViewController.xib */; };
+		4595734E2913B01C0014D34A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4595734D2913B01C0014D34A /* AppDelegate.swift */; };
+		459573522913B01C0014D34A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459573512913B01C0014D34A /* ViewController.swift */; };
+		459573552913B01C0014D34A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459573532913B01C0014D34A /* Main.storyboard */; };
+		459573572913B0200014D34A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459573562913B0200014D34A /* Assets.xcassets */; };
+		4595735A2913B0200014D34A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459573582913B0200014D34A /* LaunchScreen.storyboard */; };
+		459573642913B7070014D34A /* ServerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459573622913B7070014D34A /* ServerClass.swift */; };
+		459573652913B7070014D34A /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459573632913B7070014D34A /* Internet.swift */; };
+		459573682913B75C0014D34A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459573672913B75C0014D34A /* Constants.swift */; };
+		4595736D2913B7C50014D34A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4595736A2913B7C50014D34A /* Extensions.swift */; };
+		459573732913B8050014D34A /* UITapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459573712913B8050014D34A /* UITapGesture.swift */; };
+		459573742913B8050014D34A /* ValidationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459573722913B8050014D34A /* ValidationManager.swift */; };
+		459573892913B9610014D34A /* CustomNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 459573782913B9610014D34A /* CustomNavigationBar.xib */; };
+		4595738A2913B9610014D34A /* CustomNavigationBarForDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459573792913B9610014D34A /* CustomNavigationBarForDrawer.swift */; };
+		4595738B2913B9610014D34A /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4595737A2913B9610014D34A /* CustomNavigationBar.swift */; };
+		4595738C2913B9610014D34A /* CustomNavigationBarForDrawer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4595737B2913B9610014D34A /* CustomNavigationBarForDrawer.xib */; };
+		4595738D2913B9610014D34A /* RoundedCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4595737C2913B9610014D34A /* RoundedCornerView.swift */; };
+		4595738E2913B9610014D34A /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4595737E2913B9610014D34A /* HeaderView.xib */; };
+		4595738F2913B9610014D34A /* CustomHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4595737F2913B9610014D34A /* CustomHeaderView.xib */; };
+		459573902913B9610014D34A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459573802913B9610014D34A /* HeaderView.swift */; };
+		459573912913B9610014D34A /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459573812913B9610014D34A /* CustomHeaderView.swift */; };
+		459573922913B9610014D34A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459573832913B9610014D34A /* CardView.swift */; };
+		4597BDDB292CC60B00F387C1 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597BDD9292CC60B00F387C1 /* DashboardVC.swift */; };
+		4597BDDC292CC60B00F387C1 /* DashboardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4597BDDA292CC60B00F387C1 /* DashboardVC.xib */; };
+		4597BDDF292CC93800F387C1 /* DashboardTopCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597BDDD292CC93800F387C1 /* DashboardTopCollectionCell.swift */; };
+		4597BDE0292CC93800F387C1 /* DashboardTopCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4597BDDE292CC93800F387C1 /* DashboardTopCollectionCell.xib */; };
+		4597BDE7292CCAA800F387C1 /* DashboardTodayScheduledCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597BDE5292CCAA800F387C1 /* DashboardTodayScheduledCollectionCell.swift */; };
+		4597BDE8292CCAA800F387C1 /* DashboardTodayScheduledCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4597BDE6292CCAA800F387C1 /* DashboardTodayScheduledCollectionCell.xib */; };
+		4597BDF5292CFA3E00F387C1 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597BDF3292CFA3E00F387C1 /* ChatVC.swift */; };
+		4597BDF6292CFA3E00F387C1 /* ChatVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4597BDF4292CFA3E00F387C1 /* ChatVC.xib */; };
+		4597BDF9292CFA5B00F387C1 /* PayrollVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597BDF7292CFA5B00F387C1 /* PayrollVC.swift */; };
+		4597BDFA292CFA5B00F387C1 /* PayrollVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4597BDF8292CFA5B00F387C1 /* PayrollVC.xib */; };
+		4597BDFD292CFA8C00F387C1 /* BenefitsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597BDFB292CFA8C00F387C1 /* BenefitsVC.swift */; };
+		4597BDFE292CFA8C00F387C1 /* BenefitsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4597BDFC292CFA8C00F387C1 /* BenefitsVC.xib */; };
+		4597BE05292CFAD500F387C1 /* BonusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597BE03292CFAD500F387C1 /* BonusVC.swift */; };
+		4597BE06292CFAD500F387C1 /* BonusVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4597BE04292CFAD500F387C1 /* BonusVC.xib */; };
+		4597BE09292CFAED00F387C1 /* WorkChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597BE07292CFAED00F387C1 /* WorkChatVC.swift */; };
+		4597BE0A292CFAED00F387C1 /* WorkChatVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4597BE08292CFAED00F387C1 /* WorkChatVC.xib */; };
+		4597BE0D292CFB0300F387C1 /* TimeTrackingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597BE0B292CFB0300F387C1 /* TimeTrackingVC.swift */; };
+		4597BE0E292CFB0300F387C1 /* TimeTrackingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4597BE0C292CFB0300F387C1 /* TimeTrackingVC.xib */; };
+		4597BE11292CFB2300F387C1 /* TimeOffRequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597BE0F292CFB2300F387C1 /* TimeOffRequestVC.swift */; };
+		4597BE12292CFB2300F387C1 /* TimeOffRequestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4597BE10292CFB2300F387C1 /* TimeOffRequestVC.xib */; };
+		4597BE15292CFB3B00F387C1 /* SchedulerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597BE13292CFB3B00F387C1 /* SchedulerVC.swift */; };
+		4597BE16292CFB3B00F387C1 /* SchedulerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4597BE14292CFB3B00F387C1 /* SchedulerVC.xib */; };
+		4597BE19292CFB5900F387C1 /* EmployeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597BE17292CFB5900F387C1 /* EmployeeVC.swift */; };
+		4597BE1A292CFB5900F387C1 /* EmployeeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4597BE18292CFB5900F387C1 /* EmployeeVC.xib */; };
+		4597BE1E292CFE7000F387C1 /* TabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4597BE1C292CFE7000F387C1 /* TabBarViewController.xib */; };
+		4597BE1F292CFE7000F387C1 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597BE1D292CFE7000F387C1 /* TabBarViewController.swift */; };
+		459BFA1B292B8DBA00477487 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459BFA19292B8DBA00477487 /* SignUpVC.swift */; };
+		459BFA1C292B8DBA00477487 /* SignUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 459BFA1A292B8DBA00477487 /* SignUpVC.xib */; };
+		459BFA20292B9B3C00477487 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459BFA1E292B9B3C00477487 /* ForgotPasswordVC.swift */; };
+		459BFA21292B9B3C00477487 /* ForgotPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 459BFA1F292B9B3C00477487 /* ForgotPasswordVC.xib */; };
+		45A586672935FCA100DDAF96 /* CreateCompanySchedulerSetupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A586652935FCA100DDAF96 /* CreateCompanySchedulerSetupCell.swift */; };
+		45A586682935FCA100DDAF96 /* CreateCompanySchedulerSetupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45A586662935FCA100DDAF96 /* CreateCompanySchedulerSetupCell.xib */; };
+		45A69B89292F554900D3EDFA /* CreateCompanySecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A69B77292F554600D3EDFA /* CreateCompanySecondVC.swift */; };
+		45A69B8A292F554900D3EDFA /* CreateCompanyEmployeeSetupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A69B78292F554600D3EDFA /* CreateCompanyEmployeeSetupCell.swift */; };
+		45A69B8B292F554900D3EDFA /* CreateCompanyEmployeeSetupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45A69B79292F554700D3EDFA /* CreateCompanyEmployeeSetupCell.xib */; };
+		45A69B8C292F554900D3EDFA /* CreateCompanyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A69B7A292F554700D3EDFA /* CreateCompanyVC.swift */; };
+		45A69B8D292F554900D3EDFA /* CreateCompanyScedulerSetupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A69B7C292F554700D3EDFA /* CreateCompanyScedulerSetupVC.swift */; };
+		45A69B8E292F554900D3EDFA /* CreateCompanyEmployeeSetupVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45A69B7D292F554700D3EDFA /* CreateCompanyEmployeeSetupVC.xib */; };
+		45A69B8F292F554900D3EDFA /* CreateCompanyScheduledPositionsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45A69B7E292F554700D3EDFA /* CreateCompanyScheduledPositionsTableCell.xib */; };
+		45A69B90292F554900D3EDFA /* CreateCompanyScheduledPositionsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45A69B7F292F554700D3EDFA /* CreateCompanyScheduledPositionsVC.xib */; };
+		45A69B91292F554900D3EDFA /* CreateCompanyScheduledPositionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A69B80292F554800D3EDFA /* CreateCompanyScheduledPositionsVC.swift */; };
+		45A69B92292F554900D3EDFA /* CreateCompanyThirdStepVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A69B81292F554800D3EDFA /* CreateCompanyThirdStepVC.swift */; };
+		45A69B93292F554900D3EDFA /* CreateCompanyThirdStepVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45A69B82292F554800D3EDFA /* CreateCompanyThirdStepVC.xib */; };
+		45A69B94292F554900D3EDFA /* CreateCompanyScedulerSetupVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45A69B83292F554800D3EDFA /* CreateCompanyScedulerSetupVC.xib */; };
+		45A69B95292F554900D3EDFA /* CreateCompanyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45A69B84292F554800D3EDFA /* CreateCompanyVC.xib */; };
+		45A69B96292F554900D3EDFA /* CreateCompanySecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45A69B85292F554800D3EDFA /* CreateCompanySecondVC.xib */; };
+		45A69B97292F554900D3EDFA /* CreateCompanyEmployeeSetupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A69B86292F554800D3EDFA /* CreateCompanyEmployeeSetupVC.swift */; };
+		45A69B98292F554900D3EDFA /* CreateCompanyScheduledPositionsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A69B87292F554900D3EDFA /* CreateCompanyScheduledPositionsTableCell.swift */; };
+		45A69B9C292F6A4400D3EDFA /* OtpVerifyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A69B9A292F6A4400D3EDFA /* OtpVerifyVC.swift */; };
+		45A69B9D292F6A4400D3EDFA /* OtpVerifyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45A69B9B292F6A4400D3EDFA /* OtpVerifyVC.xib */; };
+		45A7069C29B0BBD30046BFC0 /* SchedulerWeekCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A7069A29B0BBD30046BFC0 /* SchedulerWeekCollectionCell.swift */; };
+		45A7069D29B0BBD30046BFC0 /* SchedulerWeekCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45A7069B29B0BBD30046BFC0 /* SchedulerWeekCollectionCell.xib */; };
+		45A706A029B0EEFE0046BFC0 /* SchedulerShiftTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A7069E29B0EEFD0046BFC0 /* SchedulerShiftTableCell.swift */; };
+		45A706A129B0EEFE0046BFC0 /* SchedulerShiftTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45A7069F29B0EEFE0046BFC0 /* SchedulerShiftTableCell.xib */; };
+		45A8FB362913CDA500864643 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A8FB342913CDA500864643 /* SideMenuViewController.swift */; };
+		45A8FB372913CDA500864643 /* SideMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45A8FB352913CDA500864643 /* SideMenuViewController.xib */; };
+		45A8FB3A2913CF1200864643 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A8FB382913CF1200864643 /* SideMenuTableViewCell.swift */; };
+		45A8FB3B2913CF1200864643 /* SideMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45A8FB392913CF1200864643 /* SideMenuTableViewCell.xib */; };
+		45B0AF8A2930C1F80016D39B /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B0AF892930C1F80016D39B /* LoginRequest.swift */; };
+		45B0AF8C2930C22D0016D39B /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B0AF8B2930C22D0016D39B /* LoginResponse.swift */; };
+		45B0AF8E2930CE520016D39B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B0AF8D2930CE520016D39B /* LoginViewModel.swift */; };
+		45B1383A293097B900865F53 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B13839293097B900865F53 /* SignUpViewModel.swift */; };
+		45B1383D2930980900865F53 /* ForgotPasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B1383C2930980900865F53 /* ForgotPasswordModel.swift */; };
+		45B138422930990C00865F53 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B138412930990C00865F53 /* DashboardViewModel.swift */; };
+		45B138442930992000865F53 /* DashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B138432930992000865F53 /* DashboardModel.swift */; };
+		45BD125C29B5D8DF008DBCE5 /* CustomSchedulerAddOpenShiftView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45BD125B29B5D8DF008DBCE5 /* CustomSchedulerAddOpenShiftView.xib */; };
+		45BD125E29B5D90A008DBCE5 /* CustomSchedulerAddOpenShiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD125D29B5D90A008DBCE5 /* CustomSchedulerAddOpenShiftView.swift */; };
+		45BD7486295C2A0300C850B4 /* EmployeePositionTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD7484295C2A0200C850B4 /* EmployeePositionTableCell.swift */; };
+		45BD7487295C2A0300C850B4 /* EmployeePositionTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45BD7485295C2A0300C850B4 /* EmployeePositionTableCell.xib */; };
+		45BD7489295C366F00C850B4 /* CustomAddPositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD7488295C366F00C850B4 /* CustomAddPositionView.swift */; };
+		45BD748B295C36C500C850B4 /* CustomAddPositionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45BD748A295C36C500C850B4 /* CustomAddPositionView.xib */; };
+		45BD748D295C373E00C850B4 /* CustomColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD748C295C373E00C850B4 /* CustomColorPickerView.swift */; };
+		45BD748F295C375600C850B4 /* CustomColorPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45BD748E295C375600C850B4 /* CustomColorPickerView.xib */; };
+		45C2F2C129B9CA2100894C02 /* AddEditSchedulerShiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2F2BF29B9CA2100894C02 /* AddEditSchedulerShiftViewController.swift */; };
+		45C2F2C229B9CA2100894C02 /* AddEditSchedulerShiftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C2F2C029B9CA2100894C02 /* AddEditSchedulerShiftViewController.xib */; };
+		45C2F2C429B9EE4400894C02 /* CustomEmployeeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C2F2C329B9EE4400894C02 /* CustomEmployeeListView.swift */; };
+		45C2F2C629B9EE5700894C02 /* CustomEmployeeListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C2F2C529B9EE5700894C02 /* CustomEmployeeListView.xib */; };
+		45D07C9F29488F9400311194 /* EmployeeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D07C9D29488F9400311194 /* EmployeeTableCell.swift */; };
+		45D07CA029488F9400311194 /* EmployeeTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D07C9E29488F9400311194 /* EmployeeTableCell.xib */; };
+		45D295CC2983E7F3005DB28E /* BonusDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D295CA2983E7F2005DB28E /* BonusDetailVC.swift */; };
+		45D295CD2983E7F3005DB28E /* BonusDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D295CB2983E7F3005DB28E /* BonusDetailVC.xib */; };
+		45E3D2FB2948B7A500E445BE /* EmployeePositionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E3D2F92948B7A500E445BE /* EmployeePositionsVC.swift */; };
+		45E3D2FC2948B7A500E445BE /* EmployeePositionsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45E3D2FA2948B7A500E445BE /* EmployeePositionsVC.xib */; };
+		45E3D2FF2948B7BD00E445BE /* EmployeeTagsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E3D2FD2948B7BD00E445BE /* EmployeeTagsVC.swift */; };
+		45E3D3002948B7BD00E445BE /* EmployeeTagsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45E3D2FE2948B7BD00E445BE /* EmployeeTagsVC.xib */; };
+		45E3D3032948B7EA00E445BE /* EmployeeShiftTemplatesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E3D3012948B7EA00E445BE /* EmployeeShiftTemplatesVC.swift */; };
+		45E3D3042948B7EA00E445BE /* EmployeeShiftTemplatesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45E3D3022948B7EA00E445BE /* EmployeeShiftTemplatesVC.xib */; };
+		45E3D3072948B80400E445BE /* EmployeeDocumentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E3D3052948B80400E445BE /* EmployeeDocumentsVC.swift */; };
+		45E3D3082948B80400E445BE /* EmployeeDocumentsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45E3D3062948B80400E445BE /* EmployeeDocumentsVC.xib */; };
+		45E3D30B2948B82300E445BE /* EmployeeBenefitsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E3D3092948B82300E445BE /* EmployeeBenefitsVC.swift */; };
+		45E3D30C2948B82300E445BE /* EmployeeBenefitsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45E3D30A2948B82300E445BE /* EmployeeBenefitsVC.xib */; };
+		45E3D30F2948C4D900E445BE /* AddNewEmployeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E3D30D2948C4D900E445BE /* AddNewEmployeeVC.swift */; };
+		45E3D3102948C4D900E445BE /* AddNewEmployeeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45E3D30E2948C4D900E445BE /* AddNewEmployeeVC.xib */; };
+		45F2EA8C2949DF6100FE6E66 /* CustomWeekListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45F2EA8B2949DF6100FE6E66 /* CustomWeekListView.xib */; };
+		45F66E6A2926502E0091C32A /* EmployeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F66E4E2926502E0091C32A /* EmployeeTableViewCell.swift */; };
+		45F66E6B2926502E0091C32A /* EmployeeViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F66E502926502E0091C32A /* EmployeeViewControllerExtension.swift */; };
+		45F66E6C2926502E0091C32A /* LoginVCsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F66E512926502E0091C32A /* LoginVCsExtension.swift */; };
+		45F66E6D2926502E0091C32A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F66E522926502E0091C32A /* LoginViewController.swift */; };
+		45F66E6E2926502E0091C32A /* EmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F66E532926502E0091C32A /* EmployeeViewController.swift */; };
+		45F66E6F2926502E0091C32A /* LoginValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F66E552926502E0091C32A /* LoginValidation.swift */; };
+		45F66E702926502E0091C32A /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F66E562926502E0091C32A /* ValidationResult.swift */; };
+		45F66E712926502E0091C32A /* EmployeeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F66E592926502E0091C32A /* EmployeeRequest.swift */; };
+		45F66E722926502E0091C32A /* EmployeeResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F66E5A2926502E0091C32A /* EmployeeResponseModel.swift */; };
+		45F66E732926502E0091C32A /* LoginRequest1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F66E5C2926502E0091C32A /* LoginRequest1.swift */; };
+		45F66E742926502E0091C32A /* LoginResponse1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F66E5D2926502E0091C32A /* LoginResponse1.swift */; };
+		45F66E752926502E0091C32A /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F66E5F2926502E0091C32A /* Common.swift */; };
+		45F66E762926502E0091C32A /* UserDefaultUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F66E612926502E0091C32A /* UserDefaultUtility.swift */; };
+		45F66E772926502E0091C32A /* HttpUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F66E632926502E0091C32A /* HttpUtility.swift */; };
+		45F66E782926502E0091C32A /* LoginResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F66E652926502E0091C32A /* LoginResource.swift */; };
+		45F66E792926502E0091C32A /* EmployeeResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F66E662926502E0091C32A /* EmployeeResource.swift */; };
+		45F66E7A2926502E0091C32A /* EmployeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F66E682926502E0091C32A /* EmployeeViewModel.swift */; };
+		45F66E7B2926502E0091C32A /* LoginViewModel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F66E692926502E0091C32A /* LoginViewModel1.swift */; };
+		684B7D6229489D4200B4C4B0 /* EmployeeListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684B7D6029489D4200B4C4B0 /* EmployeeListVC.swift */; };
+		684B7D6329489D4200B4C4B0 /* EmployeeListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 684B7D6129489D4200B4C4B0 /* EmployeeListVC.xib */; };
+		684B7D6A29489E1000B4C4B0 /* EmployeeListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684B7D6829489E1000B4C4B0 /* EmployeeListTableCell.swift */; };
+		684B7D6B29489E1000B4C4B0 /* EmployeeListTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 684B7D6929489E1000B4C4B0 /* EmployeeListTableCell.xib */; };
+		686C19B0297E7D5D001C0109 /* CustomUploadDocumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686C19AF297E7D5D001C0109 /* CustomUploadDocumentsView.swift */; };
+		686C19B2297E7D6D001C0109 /* CustomUploadDocumentsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 686C19B1297E7D6D001C0109 /* CustomUploadDocumentsView.xib */; };
+		6890283D298020F300814092 /* BenefitsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6890283B298020F300814092 /* BenefitsDetailVC.swift */; };
+		6890283E298020F300814092 /* BenefitsDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6890283C298020F300814092 /* BenefitsDetailVC.xib */; };
+		68DB49A629E96314007A1478 /* SchedulerDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DB49A429E96314007A1478 /* SchedulerDetailVC.swift */; };
+		68DB49A729E96314007A1478 /* SchedulerDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68DB49A529E96314007A1478 /* SchedulerDetailVC.xib */; };
+		E1E37DABA9906C3DD79898BC /* Pods_Skazule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B246FB30A5209E23299D5DB /* Pods_Skazule.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2292030337F0C07C584456E3 /* Pods-Skazule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skazule.debug.xcconfig"; path = "Target Support Files/Pods-Skazule/Pods-Skazule.debug.xcconfig"; sourceTree = "<group>"; };
+		311D7D742ABAC9A300FB7EB9 /* CreateCompanyScedulerSetupNewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCompanyScedulerSetupNewVC.swift; sourceTree = "<group>"; };
+		311D7D752ABAC9A300FB7EB9 /* CreateCompanyScedulerSetupNewVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateCompanyScedulerSetupNewVC.xib; sourceTree = "<group>"; };
+		3122B6702A821CA7002E6216 /* PushNotificationSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationSender.swift; sourceTree = "<group>"; };
+		3122B6712A821CA7002E6216 /* PushNotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationManager.swift; sourceTree = "<group>"; };
+		313490D32A03A7190025BF15 /* SchedulerBackUpListScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerBackUpListScreenController.swift; sourceTree = "<group>"; };
+		3136468B2A5EB4CA00364C70 /* ChatViewModelBackUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModelBackUp.swift; sourceTree = "<group>"; };
+		3139C7CE2A08DDBC00DEFF33 /* CustomAppliedShiftEmployeeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAppliedShiftEmployeeListView.swift; sourceTree = "<group>"; };
+		3139C7D02A08DE1F00DEFF33 /* CustomAppliedShiftEmployeeListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomAppliedShiftEmployeeListView.xib; sourceTree = "<group>"; };
+		3141BD972AD0444C00A3A01C /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		31426E572AA7595C004AC5B5 /* EmployeeDocumentsShareHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDocumentsShareHistoryVC.swift; sourceTree = "<group>"; };
+		31426E582AA7595C004AC5B5 /* EmployeeDocumentsShareHistoryVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeDocumentsShareHistoryVC.xib; sourceTree = "<group>"; };
+		3142E7D82A72818200710FF1 /* WorkChatGroupInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkChatGroupInfoVC.swift; sourceTree = "<group>"; };
+		3142E7D92A72818200710FF1 /* WorkChatGroupInfoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkChatGroupInfoVC.xib; sourceTree = "<group>"; };
+		3142E7DC2A729A8500710FF1 /* WCSettingPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCSettingPopUp.swift; sourceTree = "<group>"; };
+		3142E7DE2A729A9500710FF1 /* WCSettingPopUp.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WCSettingPopUp.xib; sourceTree = "<group>"; };
+		3144EB202A24867E00B89472 /* CustomEditTimeTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEditTimeTrackingView.swift; sourceTree = "<group>"; };
+		3144EB222A24869800B89472 /* CustomEditTimeTrackingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomEditTimeTrackingView.xib; sourceTree = "<group>"; };
+		314F7E7E2A65164F00F36EF4 /* ChatViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModelTest.swift; sourceTree = "<group>"; };
+		314F7E802A65196F00F36EF4 /* WorkChatBackUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkChatBackUpVC.swift; sourceTree = "<group>"; };
+		315583EC2A94AA670096BF3D /* CustomUpdateBonusPopUp.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomUpdateBonusPopUp.xib; sourceTree = "<group>"; };
+		315583EE2A94AAB20096BF3D /* CustomUpdateBonusPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUpdateBonusPopUp.swift; sourceTree = "<group>"; };
+		315B4F4E2A0E314A00CAF6C5 /* EmployeeTimeTrackingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTimeTrackingCell.swift; sourceTree = "<group>"; };
+		315B4F4F2A0E314A00CAF6C5 /* EmployeeTimeTrackingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeTimeTrackingCell.xib; sourceTree = "<group>"; };
+		315B4F522A0E544800CAF6C5 /* TimeTrackingDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTrackingDetailVC.swift; sourceTree = "<group>"; };
+		315B4F532A0E544800CAF6C5 /* TimeTrackingDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeTrackingDetailVC.xib; sourceTree = "<group>"; };
+		315F84C62B4BE3C10098F162 /* WorkChatGroupInfoVCOld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkChatGroupInfoVCOld.swift; sourceTree = "<group>"; };
+		3162DAB62A2A27D6001CBABE /* UIDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		3162DAB72A2A27D6001CBABE /* UIFontSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontSize.swift; sourceTree = "<group>"; };
+		3165AA952A93530C0075B1D4 /* CountryPickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerCell.swift; sourceTree = "<group>"; };
+		3165AA962A93530C0075B1D4 /* CountryPickerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryPickerCell.xib; sourceTree = "<group>"; };
+		3165AA992A9353900075B1D4 /* CountryPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerVC.swift; sourceTree = "<group>"; };
+		3165AA9A2A9353900075B1D4 /* CountryPickerVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryPickerVC.xib; sourceTree = "<group>"; };
+		3168A35B2A30A66700BF0B66 /* ChatEmployeeListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatEmployeeListVC.swift; sourceTree = "<group>"; };
+		3168A35C2A30A66700BF0B66 /* ChatEmployeeListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatEmployeeListVC.xib; sourceTree = "<group>"; };
+		3172E8AB2AB86A7F000D6983 /* CreateCompanyEmployeeSetupNewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCompanyEmployeeSetupNewVC.swift; sourceTree = "<group>"; };
+		3172E8AC2AB86A7F000D6983 /* CreateCompanyEmployeeSetupNewVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateCompanyEmployeeSetupNewVC.xib; sourceTree = "<group>"; };
+		317E3B2E2A56A79A00BAE62E /* WCEmployeeListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCEmployeeListVC.swift; sourceTree = "<group>"; };
+		317E3B2F2A56A79A00BAE62E /* WCEmployeeListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WCEmployeeListVC.xib; sourceTree = "<group>"; };
+		31807C242A98A1410060B551 /* SREmployeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SREmployeeModel.swift; sourceTree = "<group>"; };
+		31807C262A98A3520060B551 /* SREmployeePositionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SREmployeePositionModel.swift; sourceTree = "<group>"; };
+		31807C282A98A4370060B551 /* SREmployeeDocumentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SREmployeeDocumentModel.swift; sourceTree = "<group>"; };
+		31807C2A2A98AA3B0060B551 /* SRSchedulerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRSchedulerModel.swift; sourceTree = "<group>"; };
+		31807C2C2A98B61F0060B551 /* SRTimeOffRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRTimeOffRequestModel.swift; sourceTree = "<group>"; };
+		31807C2E2A98B6DF0060B551 /* SRTimeTrackingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRTimeTrackingModel.swift; sourceTree = "<group>"; };
+		31807C302A98B7610060B551 /* SRProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRProfileModel.swift; sourceTree = "<group>"; };
+		31807C322A98B80B0060B551 /* SREmployerBonusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SREmployerBonusModel.swift; sourceTree = "<group>"; };
+		31807C342A98B8B60060B551 /* SREmployerBenefitsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SREmployerBenefitsModel.swift; sourceTree = "<group>"; };
+		31807C362A98C14C0060B551 /* SRDashboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRDashboardModel.swift; sourceTree = "<group>"; };
+		318233332A7B884800A1808C /* WCAddParticipantPopUP.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WCAddParticipantPopUP.xib; sourceTree = "<group>"; };
+		318233352A7B887C00A1808C /* WCAddParticipantPopUP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCAddParticipantPopUP.swift; sourceTree = "<group>"; };
+		31827EAB2A8E1DB90048CBD9 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		31827EAC2A8E1DB90048CBD9 /* NotificationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationVC.xib; sourceTree = "<group>"; };
+		31827EAF2A8E1DF10048CBD9 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		31827EB02A8E1DF10048CBD9 /* NotificationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationCell.xib; sourceTree = "<group>"; };
+		3184830F2A86535400446DB6 /* WCViewImagePopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCViewImagePopUp.swift; sourceTree = "<group>"; };
+		318483112A86536F00446DB6 /* WCViewImagePopUp.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WCViewImagePopUp.xib; sourceTree = "<group>"; };
+		318B503F2B5683B2000EF151 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		318C64B02A56F1DA0038D624 /* WCCreateGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCCreateGroupVC.swift; sourceTree = "<group>"; };
+		318C64B12A56F1DA0038D624 /* WCCreateGroupVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WCCreateGroupVC.xib; sourceTree = "<group>"; };
+		318D47192A4C18A900DB4032 /* WorkChatDetailChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkChatDetailChatVC.swift; sourceTree = "<group>"; };
+		318D471A2A4C18A900DB4032 /* WorkChatDetailChatVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkChatDetailChatVC.xib; sourceTree = "<group>"; };
+		318D471D2A4C463500DB4032 /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		318D471F2A4C464000DB4032 /* ChatViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		318D47212A4C474400DB4032 /* Encodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Encodable.swift; sourceTree = "<group>"; };
+		318D47232A4C492400DB4032 /* NSObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
+		318D63762A8F8B2D000B65E1 /* TodayScheduledOpenShiftListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayScheduledOpenShiftListVC.swift; sourceTree = "<group>"; };
+		318D63772A8F8B2D000B65E1 /* TodayScheduledOpenShiftListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodayScheduledOpenShiftListVC.xib; sourceTree = "<group>"; };
+		318D637A2A8F908F000B65E1 /* TodayOpenShiftCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayOpenShiftCell.swift; sourceTree = "<group>"; };
+		318D637B2A8F908F000B65E1 /* TodayOpenShiftCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodayOpenShiftCell.xib; sourceTree = "<group>"; };
+		318EEC582A97967400CDBF21 /* EmployeeListImportPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListImportPopUp.swift; sourceTree = "<group>"; };
+		318EEC5A2A97969300CDBF21 /* EmployeeListImportPopUp.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeListImportPopUp.xib; sourceTree = "<group>"; };
+		3192383C2A25D80D00135CFB /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		3192383D2A25D80D00135CFB /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+		319238402A25D83B00135CFB /* UpdateProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileVC.swift; sourceTree = "<group>"; };
+		319238412A25D83B00135CFB /* UpdateProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdateProfileVC.xib; sourceTree = "<group>"; };
+		3195C3E52A30799000E847BB /* FirebaseUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseUser.swift; sourceTree = "<group>"; };
+		3195C3E62A30799000E847BB /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		3195C3ED2A307FC900E847BB /* SenderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderCell.swift; sourceTree = "<group>"; };
+		3195C3EE2A307FC900E847BB /* SenderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SenderCell.xib; sourceTree = "<group>"; };
+		3195C3F12A307FEE00E847BB /* SenderdocCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderdocCell.swift; sourceTree = "<group>"; };
+		3195C3F22A307FEE00E847BB /* SenderdocCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SenderdocCell.xib; sourceTree = "<group>"; };
+		3195C3F52A30802700E847BB /* SenderImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderImageCell.swift; sourceTree = "<group>"; };
+		3195C3F62A30802700E847BB /* SenderImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SenderImageCell.xib; sourceTree = "<group>"; };
+		3195C3F92A30807B00E847BB /* ReceiverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiverCell.swift; sourceTree = "<group>"; };
+		3195C3FA2A30807B00E847BB /* ReceiverCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiverCell.xib; sourceTree = "<group>"; };
+		3195C3FD2A30809E00E847BB /* ReceiverdocCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiverdocCell.swift; sourceTree = "<group>"; };
+		3195C3FE2A30809E00E847BB /* ReceiverdocCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiverdocCell.xib; sourceTree = "<group>"; };
+		3195C4012A3080D200E847BB /* ReceiverImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiverImageCell.swift; sourceTree = "<group>"; };
+		3195C4022A3080D200E847BB /* ReceiverImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiverImageCell.xib; sourceTree = "<group>"; };
+		319C0AB92A4AC33F00D7B6BA /* WorkChatEmployeeListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkChatEmployeeListCell.swift; sourceTree = "<group>"; };
+		319C0ABA2A4AC33F00D7B6BA /* WorkChatEmployeeListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkChatEmployeeListCell.xib; sourceTree = "<group>"; };
+		319E80652A26238100365987 /* ProfilePurchasedListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePurchasedListCell.swift; sourceTree = "<group>"; };
+		319E80662A26238100365987 /* ProfilePurchasedListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfilePurchasedListCell.xib; sourceTree = "<group>"; };
+		31B3467E2A84C8C100A2C638 /* UIImage + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage + Extension.swift"; sourceTree = "<group>"; };
+		31DE32172A52E4FE001A69EC /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		31DE32192A52E9BB001A69EC /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		31FA2FD12A025126008CF240 /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
+		3B246FB30A5209E23299D5DB /* Pods_Skazule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skazule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		450F1A5429657B7700472ECD /* CreateCompanyScheduledPositionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCompanyScheduledPositionsViewController.swift; sourceTree = "<group>"; };
+		450F1A5529657B7700472ECD /* CreateCompanyScheduledPositionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateCompanyScheduledPositionsViewController.xib; sourceTree = "<group>"; };
+		450F1A5829659D3200472ECD /* CreateCompanyScheduledCustomPositionsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCompanyScheduledCustomPositionsTableCell.swift; sourceTree = "<group>"; };
+		450F1A5929659D3200472ECD /* CreateCompanyScheduledCustomPositionsTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateCompanyScheduledCustomPositionsTableCell.xib; sourceTree = "<group>"; };
+		451304A329C8895C008F1B15 /* TimeOffRequestDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOffRequestDetailVC.swift; sourceTree = "<group>"; };
+		451304A429C8895C008F1B15 /* TimeOffRequestDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeOffRequestDetailVC.xib; sourceTree = "<group>"; };
+		4517178129C98B0D00F0C9AC /* CustomEmployeeListDocShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEmployeeListDocShareView.swift; sourceTree = "<group>"; };
+		4517178329C98B1D00F0C9AC /* CustomEmployeeListDocShareView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomEmployeeListDocShareView.xib; sourceTree = "<group>"; };
+		4528B6DF29508B5900616631 /* EmployeeDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailVC.swift; sourceTree = "<group>"; };
+		4528B6E029508B5900616631 /* EmployeeDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeDetailVC.xib; sourceTree = "<group>"; };
+		4528B6E32950B35400616631 /* EmployeeDetailBenefitsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailBenefitsCell.swift; sourceTree = "<group>"; };
+		4528B6E42950B35400616631 /* EmployeeDetailBenefitsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeDetailBenefitsCell.xib; sourceTree = "<group>"; };
+		453C016E2962D45B00720F83 /* CustomAddTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAddTagView.swift; sourceTree = "<group>"; };
+		453C01702962D46E00720F83 /* CustomAddTagView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomAddTagView.xib; sourceTree = "<group>"; };
+		453FD8F42949E5710003EBCF /* CustomWeekListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWeekListView.swift; sourceTree = "<group>"; };
+		453FD8F62949F3890003EBCF /* CustomChooseImgView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomChooseImgView.xib; sourceTree = "<group>"; };
+		453FD8F82949F39F0003EBCF /* CustomChooseImgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChooseImgView.swift; sourceTree = "<group>"; };
+		45587C18295C5E4900B503A3 /* EmployeeShiftTempBenefitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeShiftTempBenefitCell.swift; sourceTree = "<group>"; };
+		45587C19295C5E4900B503A3 /* EmployeeShiftTempBenefitCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeShiftTempBenefitCell.xib; sourceTree = "<group>"; };
+		45587C1C295C6FAC00B503A3 /* CustomAddShiftTempView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAddShiftTempView.swift; sourceTree = "<group>"; };
+		45587C1E295C6FC300B503A3 /* CustomAddShiftTempView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomAddShiftTempView.xib; sourceTree = "<group>"; };
+		45587C20295C6FEC00B503A3 /* CustomAddBenefitsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomAddBenefitsView.xib; sourceTree = "<group>"; };
+		45587C22295C701100B503A3 /* CustomAddBenefitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAddBenefitsView.swift; sourceTree = "<group>"; };
+		456BB1402983F97B0004E7E7 /* AssignBonusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignBonusVC.swift; sourceTree = "<group>"; };
+		456BB1412983F97C0004E7E7 /* AssignBonusVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AssignBonusVC.xib; sourceTree = "<group>"; };
+		456ECC65293F3CB70008DB0C /* CompanyRegistrationCompleteVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyRegistrationCompleteVc.swift; sourceTree = "<group>"; };
+		456ECC66293F3CB70008DB0C /* CompanyRegistrationCompleteVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompanyRegistrationCompleteVc.xib; sourceTree = "<group>"; };
+		4573157629A7510F0074A2F7 /* WebKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitViewController.swift; sourceTree = "<group>"; };
+		4573157729A7510F0074A2F7 /* WebKitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebKitViewController.xib; sourceTree = "<group>"; };
+		457806D1292776FF00355B0C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		457806D2292776FF00355B0C /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		457806D62927784100355B0C /* LoginVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCExtension.swift; sourceTree = "<group>"; };
+		458E67FE29798339003F8466 /* EmployeeDocumentsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDocumentsTableCell.swift; sourceTree = "<group>"; };
+		458E67FF29798339003F8466 /* EmployeeDocumentsTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeDocumentsTableCell.xib; sourceTree = "<group>"; };
+		459509FF29ADF31E0029BF1E /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		45950A0029ADF31E0029BF1E /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		4595734A2913B01C0014D34A /* Skazule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skazule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4595734D2913B01C0014D34A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		459573512913B01C0014D34A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		459573542913B01C0014D34A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		459573562913B0200014D34A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		459573592913B0200014D34A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4595735B2913B0200014D34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		459573622913B7070014D34A /* ServerClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerClass.swift; sourceTree = "<group>"; };
+		459573632913B7070014D34A /* Internet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
+		459573672913B75C0014D34A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4595736A2913B7C50014D34A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		459573712913B8050014D34A /* UITapGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITapGesture.swift; sourceTree = "<group>"; };
+		459573722913B8050014D34A /* ValidationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationManager.swift; sourceTree = "<group>"; };
+		459573782913B9610014D34A /* CustomNavigationBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomNavigationBar.xib; sourceTree = "<group>"; };
+		459573792913B9610014D34A /* CustomNavigationBarForDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationBarForDrawer.swift; sourceTree = "<group>"; };
+		4595737A2913B9610014D34A /* CustomNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		4595737B2913B9610014D34A /* CustomNavigationBarForDrawer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomNavigationBarForDrawer.xib; sourceTree = "<group>"; };
+		4595737C2913B9610014D34A /* RoundedCornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornerView.swift; sourceTree = "<group>"; };
+		4595737E2913B9610014D34A /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		4595737F2913B9610014D34A /* CustomHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomHeaderView.xib; sourceTree = "<group>"; };
+		459573802913B9610014D34A /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		459573812913B9610014D34A /* CustomHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
+		459573832913B9610014D34A /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4597BDD9292CC60B00F387C1 /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		4597BDDA292CC60B00F387C1 /* DashboardVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardVC.xib; sourceTree = "<group>"; };
+		4597BDDD292CC93800F387C1 /* DashboardTopCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTopCollectionCell.swift; sourceTree = "<group>"; };
+		4597BDDE292CC93800F387C1 /* DashboardTopCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardTopCollectionCell.xib; sourceTree = "<group>"; };
+		4597BDE5292CCAA800F387C1 /* DashboardTodayScheduledCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTodayScheduledCollectionCell.swift; sourceTree = "<group>"; };
+		4597BDE6292CCAA800F387C1 /* DashboardTodayScheduledCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardTodayScheduledCollectionCell.xib; sourceTree = "<group>"; };
+		4597BDF3292CFA3E00F387C1 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		4597BDF4292CFA3E00F387C1 /* ChatVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatVC.xib; sourceTree = "<group>"; };
+		4597BDF7292CFA5B00F387C1 /* PayrollVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayrollVC.swift; sourceTree = "<group>"; };
+		4597BDF8292CFA5B00F387C1 /* PayrollVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PayrollVC.xib; sourceTree = "<group>"; };
+		4597BDFB292CFA8C00F387C1 /* BenefitsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenefitsVC.swift; sourceTree = "<group>"; };
+		4597BDFC292CFA8C00F387C1 /* BenefitsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BenefitsVC.xib; sourceTree = "<group>"; };
+		4597BE03292CFAD500F387C1 /* BonusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusVC.swift; sourceTree = "<group>"; };
+		4597BE04292CFAD500F387C1 /* BonusVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BonusVC.xib; sourceTree = "<group>"; };
+		4597BE07292CFAED00F387C1 /* WorkChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkChatVC.swift; sourceTree = "<group>"; };
+		4597BE08292CFAED00F387C1 /* WorkChatVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkChatVC.xib; sourceTree = "<group>"; };
+		4597BE0B292CFB0300F387C1 /* TimeTrackingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTrackingVC.swift; sourceTree = "<group>"; };
+		4597BE0C292CFB0300F387C1 /* TimeTrackingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeTrackingVC.xib; sourceTree = "<group>"; };
+		4597BE0F292CFB2300F387C1 /* TimeOffRequestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOffRequestVC.swift; sourceTree = "<group>"; };
+		4597BE10292CFB2300F387C1 /* TimeOffRequestVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeOffRequestVC.xib; sourceTree = "<group>"; };
+		4597BE13292CFB3B00F387C1 /* SchedulerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerVC.swift; sourceTree = "<group>"; };
+		4597BE14292CFB3B00F387C1 /* SchedulerVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SchedulerVC.xib; sourceTree = "<group>"; };
+		4597BE17292CFB5900F387C1 /* EmployeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeVC.swift; sourceTree = "<group>"; };
+		4597BE18292CFB5900F387C1 /* EmployeeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeVC.xib; sourceTree = "<group>"; };
+		4597BE1C292CFE7000F387C1 /* TabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarViewController.xib; sourceTree = "<group>"; };
+		4597BE1D292CFE7000F387C1 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		459BFA19292B8DBA00477487 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		459BFA1A292B8DBA00477487 /* SignUpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpVC.xib; sourceTree = "<group>"; };
+		459BFA1E292B9B3C00477487 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		459BFA1F292B9B3C00477487 /* ForgotPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordVC.xib; sourceTree = "<group>"; };
+		45A586652935FCA100DDAF96 /* CreateCompanySchedulerSetupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCompanySchedulerSetupCell.swift; sourceTree = "<group>"; };
+		45A586662935FCA100DDAF96 /* CreateCompanySchedulerSetupCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateCompanySchedulerSetupCell.xib; sourceTree = "<group>"; };
+		45A69B77292F554600D3EDFA /* CreateCompanySecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCompanySecondVC.swift; sourceTree = "<group>"; };
+		45A69B78292F554600D3EDFA /* CreateCompanyEmployeeSetupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCompanyEmployeeSetupCell.swift; sourceTree = "<group>"; };
+		45A69B79292F554700D3EDFA /* CreateCompanyEmployeeSetupCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateCompanyEmployeeSetupCell.xib; sourceTree = "<group>"; };
+		45A69B7A292F554700D3EDFA /* CreateCompanyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCompanyVC.swift; sourceTree = "<group>"; };
+		45A69B7C292F554700D3EDFA /* CreateCompanyScedulerSetupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCompanyScedulerSetupVC.swift; sourceTree = "<group>"; };
+		45A69B7D292F554700D3EDFA /* CreateCompanyEmployeeSetupVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateCompanyEmployeeSetupVC.xib; sourceTree = "<group>"; };
+		45A69B7E292F554700D3EDFA /* CreateCompanyScheduledPositionsTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateCompanyScheduledPositionsTableCell.xib; sourceTree = "<group>"; };
+		45A69B7F292F554700D3EDFA /* CreateCompanyScheduledPositionsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateCompanyScheduledPositionsVC.xib; sourceTree = "<group>"; };
+		45A69B80292F554800D3EDFA /* CreateCompanyScheduledPositionsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCompanyScheduledPositionsVC.swift; sourceTree = "<group>"; };
+		45A69B81292F554800D3EDFA /* CreateCompanyThirdStepVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCompanyThirdStepVC.swift; sourceTree = "<group>"; };
+		45A69B82292F554800D3EDFA /* CreateCompanyThirdStepVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateCompanyThirdStepVC.xib; sourceTree = "<group>"; };
+		45A69B83292F554800D3EDFA /* CreateCompanyScedulerSetupVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateCompanyScedulerSetupVC.xib; sourceTree = "<group>"; };
+		45A69B84292F554800D3EDFA /* CreateCompanyVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateCompanyVC.xib; sourceTree = "<group>"; };
+		45A69B85292F554800D3EDFA /* CreateCompanySecondVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateCompanySecondVC.xib; sourceTree = "<group>"; };
+		45A69B86292F554800D3EDFA /* CreateCompanyEmployeeSetupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCompanyEmployeeSetupVC.swift; sourceTree = "<group>"; };
+		45A69B87292F554900D3EDFA /* CreateCompanyScheduledPositionsTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCompanyScheduledPositionsTableCell.swift; sourceTree = "<group>"; };
+		45A69B9A292F6A4400D3EDFA /* OtpVerifyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVerifyVC.swift; sourceTree = "<group>"; };
+		45A69B9B292F6A4400D3EDFA /* OtpVerifyVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OtpVerifyVC.xib; sourceTree = "<group>"; };
+		45A7069A29B0BBD30046BFC0 /* SchedulerWeekCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerWeekCollectionCell.swift; sourceTree = "<group>"; };
+		45A7069B29B0BBD30046BFC0 /* SchedulerWeekCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SchedulerWeekCollectionCell.xib; sourceTree = "<group>"; };
+		45A7069E29B0EEFD0046BFC0 /* SchedulerShiftTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerShiftTableCell.swift; sourceTree = "<group>"; };
+		45A7069F29B0EEFE0046BFC0 /* SchedulerShiftTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SchedulerShiftTableCell.xib; sourceTree = "<group>"; };
+		45A8FB342913CDA500864643 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		45A8FB352913CDA500864643 /* SideMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuViewController.xib; sourceTree = "<group>"; };
+		45A8FB382913CF1200864643 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		45A8FB392913CF1200864643 /* SideMenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuTableViewCell.xib; sourceTree = "<group>"; };
+		45B0AF892930C1F80016D39B /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		45B0AF8B2930C22D0016D39B /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		45B0AF8D2930CE520016D39B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		45B13839293097B900865F53 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		45B1383C2930980900865F53 /* ForgotPasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordModel.swift; sourceTree = "<group>"; };
+		45B138412930990C00865F53 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		45B138432930992000865F53 /* DashboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardModel.swift; sourceTree = "<group>"; };
+		45BD125B29B5D8DF008DBCE5 /* CustomSchedulerAddOpenShiftView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomSchedulerAddOpenShiftView.xib; sourceTree = "<group>"; };
+		45BD125D29B5D90A008DBCE5 /* CustomSchedulerAddOpenShiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSchedulerAddOpenShiftView.swift; sourceTree = "<group>"; };
+		45BD7484295C2A0200C850B4 /* EmployeePositionTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeePositionTableCell.swift; sourceTree = "<group>"; };
+		45BD7485295C2A0300C850B4 /* EmployeePositionTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeePositionTableCell.xib; sourceTree = "<group>"; };
+		45BD7488295C366F00C850B4 /* CustomAddPositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAddPositionView.swift; sourceTree = "<group>"; };
+		45BD748A295C36C500C850B4 /* CustomAddPositionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomAddPositionView.xib; sourceTree = "<group>"; };
+		45BD748C295C373E00C850B4 /* CustomColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorPickerView.swift; sourceTree = "<group>"; };
+		45BD748E295C375600C850B4 /* CustomColorPickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomColorPickerView.xib; sourceTree = "<group>"; };
+		45C2F2BF29B9CA2100894C02 /* AddEditSchedulerShiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditSchedulerShiftViewController.swift; sourceTree = "<group>"; };
+		45C2F2C029B9CA2100894C02 /* AddEditSchedulerShiftViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddEditSchedulerShiftViewController.xib; sourceTree = "<group>"; };
+		45C2F2C329B9EE4400894C02 /* CustomEmployeeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEmployeeListView.swift; sourceTree = "<group>"; };
+		45C2F2C529B9EE5700894C02 /* CustomEmployeeListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomEmployeeListView.xib; sourceTree = "<group>"; };
+		45D07C9D29488F9400311194 /* EmployeeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTableCell.swift; sourceTree = "<group>"; };
+		45D07C9E29488F9400311194 /* EmployeeTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeTableCell.xib; sourceTree = "<group>"; };
+		45D295CA2983E7F2005DB28E /* BonusDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusDetailVC.swift; sourceTree = "<group>"; };
+		45D295CB2983E7F3005DB28E /* BonusDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BonusDetailVC.xib; sourceTree = "<group>"; };
+		45E3D2F92948B7A500E445BE /* EmployeePositionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeePositionsVC.swift; sourceTree = "<group>"; };
+		45E3D2FA2948B7A500E445BE /* EmployeePositionsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeePositionsVC.xib; sourceTree = "<group>"; };
+		45E3D2FD2948B7BD00E445BE /* EmployeeTagsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTagsVC.swift; sourceTree = "<group>"; };
+		45E3D2FE2948B7BD00E445BE /* EmployeeTagsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeTagsVC.xib; sourceTree = "<group>"; };
+		45E3D3012948B7EA00E445BE /* EmployeeShiftTemplatesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeShiftTemplatesVC.swift; sourceTree = "<group>"; };
+		45E3D3022948B7EA00E445BE /* EmployeeShiftTemplatesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeShiftTemplatesVC.xib; sourceTree = "<group>"; };
+		45E3D3052948B80400E445BE /* EmployeeDocumentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDocumentsVC.swift; sourceTree = "<group>"; };
+		45E3D3062948B80400E445BE /* EmployeeDocumentsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeDocumentsVC.xib; sourceTree = "<group>"; };
+		45E3D3092948B82300E445BE /* EmployeeBenefitsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeBenefitsVC.swift; sourceTree = "<group>"; };
+		45E3D30A2948B82300E445BE /* EmployeeBenefitsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeBenefitsVC.xib; sourceTree = "<group>"; };
+		45E3D30D2948C4D900E445BE /* AddNewEmployeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewEmployeeVC.swift; sourceTree = "<group>"; };
+		45E3D30E2948C4D900E445BE /* AddNewEmployeeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewEmployeeVC.xib; sourceTree = "<group>"; };
+		45F2EA8B2949DF6100FE6E66 /* CustomWeekListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomWeekListView.xib; sourceTree = "<group>"; };
+		45F66E4E2926502E0091C32A /* EmployeeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeTableViewCell.swift; sourceTree = "<group>"; };
+		45F66E502926502E0091C32A /* EmployeeViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeViewControllerExtension.swift; sourceTree = "<group>"; };
+		45F66E512926502E0091C32A /* LoginVCsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVCsExtension.swift; sourceTree = "<group>"; };
+		45F66E522926502E0091C32A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		45F66E532926502E0091C32A /* EmployeeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeViewController.swift; sourceTree = "<group>"; };
+		45F66E552926502E0091C32A /* LoginValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginValidation.swift; sourceTree = "<group>"; };
+		45F66E562926502E0091C32A /* ValidationResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationResult.swift; sourceTree = "<group>"; };
+		45F66E592926502E0091C32A /* EmployeeRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeRequest.swift; sourceTree = "<group>"; };
+		45F66E5A2926502E0091C32A /* EmployeeResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeResponseModel.swift; sourceTree = "<group>"; };
+		45F66E5C2926502E0091C32A /* LoginRequest1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRequest1.swift; sourceTree = "<group>"; };
+		45F66E5D2926502E0091C32A /* LoginResponse1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponse1.swift; sourceTree = "<group>"; };
+		45F66E5F2926502E0091C32A /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		45F66E612926502E0091C32A /* UserDefaultUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultUtility.swift; sourceTree = "<group>"; };
+		45F66E632926502E0091C32A /* HttpUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpUtility.swift; sourceTree = "<group>"; };
+		45F66E652926502E0091C32A /* LoginResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResource.swift; sourceTree = "<group>"; };
+		45F66E662926502E0091C32A /* EmployeeResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeResource.swift; sourceTree = "<group>"; };
+		45F66E682926502E0091C32A /* EmployeeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeViewModel.swift; sourceTree = "<group>"; };
+		45F66E692926502E0091C32A /* LoginViewModel1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel1.swift; sourceTree = "<group>"; };
+		541192D49F011D65C0C804D8 /* Pods-Skazule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skazule.release.xcconfig"; path = "Target Support Files/Pods-Skazule/Pods-Skazule.release.xcconfig"; sourceTree = "<group>"; };
+		684B7D6029489D4200B4C4B0 /* EmployeeListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListVC.swift; sourceTree = "<group>"; };
+		684B7D6129489D4200B4C4B0 /* EmployeeListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeListVC.xib; sourceTree = "<group>"; };
+		684B7D6829489E1000B4C4B0 /* EmployeeListTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListTableCell.swift; sourceTree = "<group>"; };
+		684B7D6929489E1000B4C4B0 /* EmployeeListTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeListTableCell.xib; sourceTree = "<group>"; };
+		686C19AF297E7D5D001C0109 /* CustomUploadDocumentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUploadDocumentsView.swift; sourceTree = "<group>"; };
+		686C19B1297E7D6D001C0109 /* CustomUploadDocumentsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomUploadDocumentsView.xib; sourceTree = "<group>"; };
+		686C19B3297ED306001C0109 /* Skazule.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Skazule.entitlements; sourceTree = "<group>"; };
+		6890283B298020F300814092 /* BenefitsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenefitsDetailVC.swift; sourceTree = "<group>"; };
+		6890283C298020F300814092 /* BenefitsDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BenefitsDetailVC.xib; sourceTree = "<group>"; };
+		68DB49A429E96314007A1478 /* SchedulerDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerDetailVC.swift; sourceTree = "<group>"; };
+		68DB49A529E96314007A1478 /* SchedulerDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SchedulerDetailVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		459573472913B01C0014D34A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FA2FD02A025043008CF240 /* Kingfisher in Frameworks */,
+				E1E37DABA9906C3DD79898BC /* Pods_Skazule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		235F2669D159F9EEF210581F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B246FB30A5209E23299D5DB /* Pods_Skazule.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3122B66F2A821C91002E6216 /* Push Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				3122B6712A821CA7002E6216 /* PushNotificationManager.swift */,
+				3122B6702A821CA7002E6216 /* PushNotificationSender.swift */,
+			);
+			path = "Push Notifications";
+			sourceTree = "<group>";
+		};
+		313490D22A03A4B10025BF15 /* SchedulerBackUpListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				313490D32A03A7190025BF15 /* SchedulerBackUpListScreenController.swift */,
+			);
+			path = SchedulerBackUpListScreen;
+			sourceTree = "<group>";
+		};
+		3144EB1F2A24862300B89472 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				3144EB202A24867E00B89472 /* CustomEditTimeTrackingView.swift */,
+				3144EB222A24869800B89472 /* CustomEditTimeTrackingView.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		31827EAA2A8E153F0048CBD9 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				31827EAB2A8E1DB90048CBD9 /* NotificationVC.swift */,
+				31827EAC2A8E1DB90048CBD9 /* NotificationVC.xib */,
+				31827EAF2A8E1DF10048CBD9 /* NotificationCell.swift */,
+				31827EB02A8E1DF10048CBD9 /* NotificationCell.xib */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		3184830E2A8651F400446DB6 /* ImagePopUp */ = {
+			isa = PBXGroup;
+			children = (
+				3184830F2A86535400446DB6 /* WCViewImagePopUp.swift */,
+				318483112A86536F00446DB6 /* WCViewImagePopUp.xib */,
+			);
+			path = ImagePopUp;
+			sourceTree = "<group>";
+		};
+		3192383B2A25D76D00135CFB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				31807C302A98B7610060B551 /* SRProfileModel.swift */,
+				3192383C2A25D80D00135CFB /* ProfileVC.swift */,
+				3192383D2A25D80D00135CFB /* ProfileVC.xib */,
+				319238402A25D83B00135CFB /* UpdateProfileVC.swift */,
+				319238412A25D83B00135CFB /* UpdateProfileVC.xib */,
+				319E80652A26238100365987 /* ProfilePurchasedListCell.swift */,
+				319E80662A26238100365987 /* ProfilePurchasedListCell.xib */,
+				3141BD972AD0444C00A3A01C /* File.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3195C3E12A30799000E847BB /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				318D471D2A4C463500DB4032 /* UserViewModel.swift */,
+				318D471F2A4C464000DB4032 /* ChatViewModel.swift */,
+				314F7E7E2A65164F00F36EF4 /* ChatViewModelTest.swift */,
+				3136468B2A5EB4CA00364C70 /* ChatViewModelBackUp.swift */,
+				3195C3E42A30799000E847BB /* Firebase */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		3195C3E42A30799000E847BB /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				3195C3E52A30799000E847BB /* FirebaseUser.swift */,
+				3195C3E62A30799000E847BB /* Message.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		454C7D7E295B332500EF3706 /* Employee List */ = {
+			isa = PBXGroup;
+			children = (
+				31807C242A98A1410060B551 /* SREmployeeModel.swift */,
+				4597BE17292CFB5900F387C1 /* EmployeeVC.swift */,
+				4597BE18292CFB5900F387C1 /* EmployeeVC.xib */,
+				684B7D6029489D4200B4C4B0 /* EmployeeListVC.swift */,
+				684B7D6129489D4200B4C4B0 /* EmployeeListVC.xib */,
+				318EEC582A97967400CDBF21 /* EmployeeListImportPopUp.swift */,
+				318EEC5A2A97969300CDBF21 /* EmployeeListImportPopUp.xib */,
+				4528B6DF29508B5900616631 /* EmployeeDetailVC.swift */,
+				4528B6E029508B5900616631 /* EmployeeDetailVC.xib */,
+				45E3D30D2948C4D900E445BE /* AddNewEmployeeVC.swift */,
+				45E3D30E2948C4D900E445BE /* AddNewEmployeeVC.xib */,
+			);
+			path = "Employee List";
+			sourceTree = "<group>";
+		};
+		454C7D7F295B333C00EF3706 /* Positions */ = {
+			isa = PBXGroup;
+			children = (
+				31807C262A98A3520060B551 /* SREmployeePositionModel.swift */,
+				45E3D2F92948B7A500E445BE /* EmployeePositionsVC.swift */,
+				45E3D2FA2948B7A500E445BE /* EmployeePositionsVC.xib */,
+			);
+			path = Positions;
+			sourceTree = "<group>";
+		};
+		454C7D80295B348C00EF3706 /* Tags */ = {
+			isa = PBXGroup;
+			children = (
+				45E3D2FD2948B7BD00E445BE /* EmployeeTagsVC.swift */,
+				45E3D2FE2948B7BD00E445BE /* EmployeeTagsVC.xib */,
+			);
+			path = Tags;
+			sourceTree = "<group>";
+		};
+		454C7D81295B34A200EF3706 /* ShiftTemplates */ = {
+			isa = PBXGroup;
+			children = (
+				45E3D3012948B7EA00E445BE /* EmployeeShiftTemplatesVC.swift */,
+				45E3D3022948B7EA00E445BE /* EmployeeShiftTemplatesVC.xib */,
+			);
+			path = ShiftTemplates;
+			sourceTree = "<group>";
+		};
+		454C7D82295B34C100EF3706 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				31807C282A98A4370060B551 /* SREmployeeDocumentModel.swift */,
+				45E3D3052948B80400E445BE /* EmployeeDocumentsVC.swift */,
+				45E3D3062948B80400E445BE /* EmployeeDocumentsVC.xib */,
+				31426E572AA7595C004AC5B5 /* EmployeeDocumentsShareHistoryVC.swift */,
+				31426E582AA7595C004AC5B5 /* EmployeeDocumentsShareHistoryVC.xib */,
+			);
+			path = Documents;
+			sourceTree = "<group>";
+		};
+		454C7D83295B34CC00EF3706 /* Benefits */ = {
+			isa = PBXGroup;
+			children = (
+				45E3D3092948B82300E445BE /* EmployeeBenefitsVC.swift */,
+				45E3D30A2948B82300E445BE /* EmployeeBenefitsVC.xib */,
+			);
+			path = Benefits;
+			sourceTree = "<group>";
+		};
+		4573157529A750E80074A2F7 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				4573157629A7510F0074A2F7 /* WebKitViewController.swift */,
+				4573157729A7510F0074A2F7 /* WebKitViewController.xib */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		457806CF292765E800355B0C /* LogInDemo */ = {
+			isa = PBXGroup;
+			children = (
+				45F66E4D2926502E0091C32A /* TableCell */,
+				45F66E4F2926502E0091C32A /* Extensions */,
+				45F66E522926502E0091C32A /* LoginViewController.swift */,
+				45F66E532926502E0091C32A /* EmployeeViewController.swift */,
+			);
+			path = LogInDemo;
+			sourceTree = "<group>";
+		};
+		457806D0292775CE00355B0C /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				457806D52927778D00355B0C /* Extensions */,
+				457806D1292776FF00355B0C /* LoginVC.swift */,
+				457806D2292776FF00355B0C /* LoginVC.xib */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		457806D52927778D00355B0C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				457806D62927784100355B0C /* LoginVCExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		458B689F292CC28E00EE458D /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				45A69B51292F462900D3EDFA /* Extensions */,
+				45A69B50292F462900D3EDFA /* CollectionCell */,
+				45A69B52292F462900D3EDFA /* TableCell */,
+				31807C362A98C14C0060B551 /* SRDashboardModel.swift */,
+				4597BDD9292CC60B00F387C1 /* DashboardVC.swift */,
+				4597BDDA292CC60B00F387C1 /* DashboardVC.xib */,
+				318D63762A8F8B2D000B65E1 /* TodayScheduledOpenShiftListVC.swift */,
+				318D63772A8F8B2D000B65E1 /* TodayScheduledOpenShiftListVC.xib */,
+				318D637A2A8F908F000B65E1 /* TodayOpenShiftCell.swift */,
+				318D637B2A8F908F000B65E1 /* TodayOpenShiftCell.xib */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		459509FE29ADF2D00029BF1E /* TestSearch */ = {
+			isa = PBXGroup;
+			children = (
+				459509FF29ADF31E0029BF1E /* SearchViewController.swift */,
+				45950A0029ADF31E0029BF1E /* SearchViewController.xib */,
+			);
+			path = TestSearch;
+			sourceTree = "<group>";
+		};
+		459573412913B01C0014D34A = {
+			isa = PBXGroup;
+			children = (
+				4595734C2913B01C0014D34A /* Skazule */,
+				4595734B2913B01C0014D34A /* Products */,
+				48E9E6B56E98D630F81C71AE /* Pods */,
+				235F2669D159F9EEF210581F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4595734B2913B01C0014D34A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4595734A2913B01C0014D34A /* Skazule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4595734C2913B01C0014D34A /* Skazule */ = {
+			isa = PBXGroup;
+			children = (
+				318B503F2B5683B2000EF151 /* GoogleService-Info.plist */,
+				686C19B3297ED306001C0109 /* Skazule.entitlements */,
+				459573692913B79B0014D34A /* Extensions */,
+				45F66E5E2926502E0091C32A /* Common */,
+				45F66E642926502E0091C32A /* DataResources */,
+				45F66E542926502E0091C32A /* Validation */,
+				45F66E622926502E0091C32A /* Services */,
+				45F66E572926502E0091C32A /* Model */,
+				45F66E672926502E0091C32A /* ViewModel */,
+				45F66E4C2926502E0091C32A /* View */,
+				4595734D2913B01C0014D34A /* AppDelegate.swift */,
+				459573512913B01C0014D34A /* ViewController.swift */,
+				459573532913B01C0014D34A /* Main.storyboard */,
+				459573562913B0200014D34A /* Assets.xcassets */,
+				459573582913B0200014D34A /* LaunchScreen.storyboard */,
+				4595735B2913B0200014D34A /* Info.plist */,
+			);
+			path = Skazule;
+			sourceTree = "<group>";
+		};
+		459573692913B79B0014D34A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				318D47232A4C492400DB4032 /* NSObjectExtension.swift */,
+				31DE32172A52E4FE001A69EC /* Date.swift */,
+				31DE32192A52E9BB001A69EC /* UIView.swift */,
+				318D47212A4C474400DB4032 /* Encodable.swift */,
+				4595736A2913B7C50014D34A /* Extensions.swift */,
+				3162DAB62A2A27D6001CBABE /* UIDevice+Extension.swift */,
+				3162DAB72A2A27D6001CBABE /* UIFontSize.swift */,
+				31FA2FD12A025126008CF240 /* UIImageView + Extension.swift */,
+				31B3467E2A84C8C100A2C638 /* UIImage + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		459573762913B8340014D34A /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				459573822913B9610014D34A /* CardView */,
+				4595737D2913B9610014D34A /* CustomHeaderView */,
+				4595737C2913B9610014D34A /* RoundedCornerView.swift */,
+				459573842913B9610014D34A /* CustomView */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		459573772913B9610014D34A /* CustomNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				459573792913B9610014D34A /* CustomNavigationBarForDrawer.swift */,
+				4595737B2913B9610014D34A /* CustomNavigationBarForDrawer.xib */,
+				4595737A2913B9610014D34A /* CustomNavigationBar.swift */,
+				459573782913B9610014D34A /* CustomNavigationBar.xib */,
+			);
+			path = CustomNavigationBar;
+			sourceTree = "<group>";
+		};
+		4595737D2913B9610014D34A /* CustomHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				459573802913B9610014D34A /* HeaderView.swift */,
+				4595737E2913B9610014D34A /* HeaderView.xib */,
+				459573812913B9610014D34A /* CustomHeaderView.swift */,
+				4595737F2913B9610014D34A /* CustomHeaderView.xib */,
+			);
+			path = CustomHeaderView;
+			sourceTree = "<group>";
+		};
+		459573822913B9610014D34A /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				459573832913B9610014D34A /* CardView.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		459573842913B9610014D34A /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				453FD8F42949E5710003EBCF /* CustomWeekListView.swift */,
+				45F2EA8B2949DF6100FE6E66 /* CustomWeekListView.xib */,
+				453FD8F82949F39F0003EBCF /* CustomChooseImgView.swift */,
+				453FD8F62949F3890003EBCF /* CustomChooseImgView.xib */,
+				45BD7488295C366F00C850B4 /* CustomAddPositionView.swift */,
+				45BD748A295C36C500C850B4 /* CustomAddPositionView.xib */,
+				453C016E2962D45B00720F83 /* CustomAddTagView.swift */,
+				453C01702962D46E00720F83 /* CustomAddTagView.xib */,
+				45BD748C295C373E00C850B4 /* CustomColorPickerView.swift */,
+				45BD748E295C375600C850B4 /* CustomColorPickerView.xib */,
+				45587C1C295C6FAC00B503A3 /* CustomAddShiftTempView.swift */,
+				45587C1E295C6FC300B503A3 /* CustomAddShiftTempView.xib */,
+				45587C22295C701100B503A3 /* CustomAddBenefitsView.swift */,
+				45587C20295C6FEC00B503A3 /* CustomAddBenefitsView.xib */,
+				686C19AF297E7D5D001C0109 /* CustomUploadDocumentsView.swift */,
+				686C19B1297E7D6D001C0109 /* CustomUploadDocumentsView.xib */,
+				45BD125D29B5D90A008DBCE5 /* CustomSchedulerAddOpenShiftView.swift */,
+				45BD125B29B5D8DF008DBCE5 /* CustomSchedulerAddOpenShiftView.xib */,
+				45C2F2C329B9EE4400894C02 /* CustomEmployeeListView.swift */,
+				45C2F2C529B9EE5700894C02 /* CustomEmployeeListView.xib */,
+				4517178129C98B0D00F0C9AC /* CustomEmployeeListDocShareView.swift */,
+				4517178329C98B1D00F0C9AC /* CustomEmployeeListDocShareView.xib */,
+				3139C7CE2A08DDBC00DEFF33 /* CustomAppliedShiftEmployeeListView.swift */,
+				3139C7D02A08DE1F00DEFF33 /* CustomAppliedShiftEmployeeListView.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		4597BDE9292CF86C00F387C1 /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				459509FE29ADF2D00029BF1E /* TestSearch */,
+				45A69B4F292F461B00D3EDFA /* CollectionCell */,
+				45A69B4D292F461B00D3EDFA /* Extensions */,
+				45A69B4E292F461B00D3EDFA /* TableCell */,
+				454C7D7E295B332500EF3706 /* Employee List */,
+				454C7D7F295B333C00EF3706 /* Positions */,
+				454C7D80295B348C00EF3706 /* Tags */,
+				454C7D81295B34A200EF3706 /* ShiftTemplates */,
+				454C7D82295B34C100EF3706 /* Documents */,
+				454C7D83295B34CC00EF3706 /* Benefits */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
+		4597BDEA292CF8FD00F387C1 /* Scheduler */ = {
+			isa = PBXGroup;
+			children = (
+				45A69B4A292F45FD00D3EDFA /* CollectionCell */,
+				45A69B4C292F45FD00D3EDFA /* Extensions */,
+				45A69B4B292F45FD00D3EDFA /* TableCell */,
+				313490D22A03A4B10025BF15 /* SchedulerBackUpListScreen */,
+				31807C2A2A98AA3B0060B551 /* SRSchedulerModel.swift */,
+				4597BE13292CFB3B00F387C1 /* SchedulerVC.swift */,
+				4597BE14292CFB3B00F387C1 /* SchedulerVC.xib */,
+				68DB49A429E96314007A1478 /* SchedulerDetailVC.swift */,
+				68DB49A529E96314007A1478 /* SchedulerDetailVC.xib */,
+				45C2F2BF29B9CA2100894C02 /* AddEditSchedulerShiftViewController.swift */,
+				45C2F2C029B9CA2100894C02 /* AddEditSchedulerShiftViewController.xib */,
+			);
+			path = Scheduler;
+			sourceTree = "<group>";
+		};
+		4597BDEB292CF91700F387C1 /* Time off Request */ = {
+			isa = PBXGroup;
+			children = (
+				45A69B48292F45EC00D3EDFA /* CollectionCell */,
+				45A69B49292F45EC00D3EDFA /* Extensions */,
+				45A69B47292F45EB00D3EDFA /* TableCell */,
+				31807C2C2A98B61F0060B551 /* SRTimeOffRequestModel.swift */,
+				4597BE0F292CFB2300F387C1 /* TimeOffRequestVC.swift */,
+				4597BE10292CFB2300F387C1 /* TimeOffRequestVC.xib */,
+				451304A329C8895C008F1B15 /* TimeOffRequestDetailVC.swift */,
+				451304A429C8895C008F1B15 /* TimeOffRequestDetailVC.xib */,
+			);
+			path = "Time off Request";
+			sourceTree = "<group>";
+		};
+		4597BDEC292CF92400F387C1 /* Time Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				45A69B44292F45DE00D3EDFA /* CollectionCell */,
+				45A69B45292F45DE00D3EDFA /* Extensions */,
+				3144EB1F2A24862300B89472 /* CustomView */,
+				45A69B46292F45DF00D3EDFA /* TableCell */,
+				31807C2E2A98B6DF0060B551 /* SRTimeTrackingModel.swift */,
+				4597BE0B292CFB0300F387C1 /* TimeTrackingVC.swift */,
+				4597BE0C292CFB0300F387C1 /* TimeTrackingVC.xib */,
+				315B4F522A0E544800CAF6C5 /* TimeTrackingDetailVC.swift */,
+				315B4F532A0E544800CAF6C5 /* TimeTrackingDetailVC.xib */,
+			);
+			path = "Time Tracking";
+			sourceTree = "<group>";
+		};
+		4597BDED292CF92F00F387C1 /* Work Chat */ = {
+			isa = PBXGroup;
+			children = (
+				3195C3E12A30799000E847BB /* View Model */,
+				45A69B41292F45D300D3EDFA /* CollectionCell */,
+				45A69B42292F45D300D3EDFA /* Extensions */,
+				45A69B43292F45D300D3EDFA /* TableCell */,
+				3122B66F2A821C91002E6216 /* Push Notifications */,
+				314F7E802A65196F00F36EF4 /* WorkChatBackUpVC.swift */,
+				4597BE07292CFAED00F387C1 /* WorkChatVC.swift */,
+				4597BE08292CFAED00F387C1 /* WorkChatVC.xib */,
+				318D47192A4C18A900DB4032 /* WorkChatDetailChatVC.swift */,
+				318D471A2A4C18A900DB4032 /* WorkChatDetailChatVC.xib */,
+				315F84C62B4BE3C10098F162 /* WorkChatGroupInfoVCOld.swift */,
+				3142E7D82A72818200710FF1 /* WorkChatGroupInfoVC.swift */,
+				3142E7D92A72818200710FF1 /* WorkChatGroupInfoVC.xib */,
+				318C64B02A56F1DA0038D624 /* WCCreateGroupVC.swift */,
+				318C64B12A56F1DA0038D624 /* WCCreateGroupVC.xib */,
+				317E3B2E2A56A79A00BAE62E /* WCEmployeeListVC.swift */,
+				317E3B2F2A56A79A00BAE62E /* WCEmployeeListVC.xib */,
+				3142E7DC2A729A8500710FF1 /* WCSettingPopUp.swift */,
+				3142E7DE2A729A9500710FF1 /* WCSettingPopUp.xib */,
+				318233352A7B887C00A1808C /* WCAddParticipantPopUP.swift */,
+				318233332A7B884800A1808C /* WCAddParticipantPopUP.xib */,
+				3184830E2A8651F400446DB6 /* ImagePopUp */,
+			);
+			path = "Work Chat";
+			sourceTree = "<group>";
+		};
+		4597BDEE292CF93A00F387C1 /* Bonus */ = {
+			isa = PBXGroup;
+			children = (
+				45A69B40292F457300D3EDFA /* CollectionCell */,
+				45A69B3E292F457200D3EDFA /* Extensions */,
+				45A69B3F292F457200D3EDFA /* TableCell */,
+				31807C322A98B80B0060B551 /* SREmployerBonusModel.swift */,
+				4597BE03292CFAD500F387C1 /* BonusVC.swift */,
+				4597BE04292CFAD500F387C1 /* BonusVC.xib */,
+				45D295CA2983E7F2005DB28E /* BonusDetailVC.swift */,
+				45D295CB2983E7F3005DB28E /* BonusDetailVC.xib */,
+				315583EE2A94AAB20096BF3D /* CustomUpdateBonusPopUp.swift */,
+				315583EC2A94AA670096BF3D /* CustomUpdateBonusPopUp.xib */,
+				456BB1402983F97B0004E7E7 /* AssignBonusVC.swift */,
+				456BB1412983F97C0004E7E7 /* AssignBonusVC.xib */,
+			);
+			path = Bonus;
+			sourceTree = "<group>";
+		};
+		4597BDEF292CF9E400F387C1 /* Benefits */ = {
+			isa = PBXGroup;
+			children = (
+				45A69B3D292F455800D3EDFA /* CollectionCell */,
+				45A69B3C292F455800D3EDFA /* Extensions */,
+				45A69B3B292F455800D3EDFA /* TableCell */,
+				31807C342A98B8B60060B551 /* SREmployerBenefitsModel.swift */,
+				4597BDFB292CFA8C00F387C1 /* BenefitsVC.swift */,
+				4597BDFC292CFA8C00F387C1 /* BenefitsVC.xib */,
+				6890283B298020F300814092 /* BenefitsDetailVC.swift */,
+				6890283C298020F300814092 /* BenefitsDetailVC.xib */,
+			);
+			path = Benefits;
+			sourceTree = "<group>";
+		};
+		4597BDF1292CF9FF00F387C1 /* Payroll */ = {
+			isa = PBXGroup;
+			children = (
+				45A69B35292F452A00D3EDFA /* CollectionCell */,
+				45A69B36292F452A00D3EDFA /* Extensions */,
+				45A69B37292F452B00D3EDFA /* TableCell */,
+				4597BDF7292CFA5B00F387C1 /* PayrollVC.swift */,
+				4597BDF8292CFA5B00F387C1 /* PayrollVC.xib */,
+			);
+			path = Payroll;
+			sourceTree = "<group>";
+		};
+		4597BDF2292CFA0D00F387C1 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				45A69B32292F451400D3EDFA /* CollectionCell */,
+				45A69B34292F451500D3EDFA /* Extensions */,
+				45A69B33292F451400D3EDFA /* TableCell */,
+				3168A35B2A30A66700BF0B66 /* ChatEmployeeListVC.swift */,
+				3168A35C2A30A66700BF0B66 /* ChatEmployeeListVC.xib */,
+				4597BDF3292CFA3E00F387C1 /* ChatVC.swift */,
+				4597BDF4292CFA3E00F387C1 /* ChatVC.xib */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		4597BE1B292CFE7000F387C1 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				4597BE1D292CFE7000F387C1 /* TabBarViewController.swift */,
+				4597BE1C292CFE7000F387C1 /* TabBarViewController.xib */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		459BFA18292B8D8A00477487 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				45A69B2F292F44B800D3EDFA /* Extensions */,
+				459BFA19292B8DBA00477487 /* SignUpVC.swift */,
+				459BFA1A292B8DBA00477487 /* SignUpVC.xib */,
+				3165AA992A9353900075B1D4 /* CountryPickerVC.swift */,
+				3165AA9A2A9353900075B1D4 /* CountryPickerVC.xib */,
+				3165AA952A93530C0075B1D4 /* CountryPickerCell.swift */,
+				3165AA962A93530C0075B1D4 /* CountryPickerCell.xib */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		459BFA1D292B8DD100477487 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				459BFA1E292B9B3C00477487 /* ForgotPasswordVC.swift */,
+				459BFA1F292B9B3C00477487 /* ForgotPasswordVC.xib */,
+				45A69B9A292F6A4400D3EDFA /* OtpVerifyVC.swift */,
+				45A69B9B292F6A4400D3EDFA /* OtpVerifyVC.xib */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		459BFA22292BA49800477487 /* CreateCompany */ = {
+			isa = PBXGroup;
+			children = (
+				45A69B7B292F554700D3EDFA /* Extensions */,
+				45A69B99292F556000D3EDFA /* TableCell */,
+				45A69B7A292F554700D3EDFA /* CreateCompanyVC.swift */,
+				45A69B84292F554800D3EDFA /* CreateCompanyVC.xib */,
+				45A69B77292F554600D3EDFA /* CreateCompanySecondVC.swift */,
+				45A69B85292F554800D3EDFA /* CreateCompanySecondVC.xib */,
+				45A69B81292F554800D3EDFA /* CreateCompanyThirdStepVC.swift */,
+				45A69B82292F554800D3EDFA /* CreateCompanyThirdStepVC.xib */,
+				45A69B80292F554800D3EDFA /* CreateCompanyScheduledPositionsVC.swift */,
+				45A69B7F292F554700D3EDFA /* CreateCompanyScheduledPositionsVC.xib */,
+				450F1A5429657B7700472ECD /* CreateCompanyScheduledPositionsViewController.swift */,
+				450F1A5529657B7700472ECD /* CreateCompanyScheduledPositionsViewController.xib */,
+				45A69B86292F554800D3EDFA /* CreateCompanyEmployeeSetupVC.swift */,
+				45A69B7D292F554700D3EDFA /* CreateCompanyEmployeeSetupVC.xib */,
+				3172E8AB2AB86A7F000D6983 /* CreateCompanyEmployeeSetupNewVC.swift */,
+				3172E8AC2AB86A7F000D6983 /* CreateCompanyEmployeeSetupNewVC.xib */,
+				45A69B7C292F554700D3EDFA /* CreateCompanyScedulerSetupVC.swift */,
+				45A69B83292F554800D3EDFA /* CreateCompanyScedulerSetupVC.xib */,
+				311D7D742ABAC9A300FB7EB9 /* CreateCompanyScedulerSetupNewVC.swift */,
+				311D7D752ABAC9A300FB7EB9 /* CreateCompanyScedulerSetupNewVC.xib */,
+				456ECC65293F3CB70008DB0C /* CompanyRegistrationCompleteVc.swift */,
+				456ECC66293F3CB70008DB0C /* CompanyRegistrationCompleteVc.xib */,
+			);
+			path = CreateCompany;
+			sourceTree = "<group>";
+		};
+		45A69B2F292F44B800D3EDFA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		45A69B32292F451400D3EDFA /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		45A69B33292F451400D3EDFA /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		45A69B34292F451500D3EDFA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		45A69B35292F452A00D3EDFA /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		45A69B36292F452A00D3EDFA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		45A69B37292F452B00D3EDFA /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		45A69B3B292F455800D3EDFA /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		45A69B3C292F455800D3EDFA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		45A69B3D292F455800D3EDFA /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		45A69B3E292F457200D3EDFA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		45A69B3F292F457200D3EDFA /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		45A69B40292F457300D3EDFA /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		45A69B41292F45D300D3EDFA /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		45A69B42292F45D300D3EDFA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		45A69B43292F45D300D3EDFA /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				3195C3ED2A307FC900E847BB /* SenderCell.swift */,
+				3195C3EE2A307FC900E847BB /* SenderCell.xib */,
+				3195C3F52A30802700E847BB /* SenderImageCell.swift */,
+				3195C3F62A30802700E847BB /* SenderImageCell.xib */,
+				3195C3F12A307FEE00E847BB /* SenderdocCell.swift */,
+				3195C3F22A307FEE00E847BB /* SenderdocCell.xib */,
+				3195C3F92A30807B00E847BB /* ReceiverCell.swift */,
+				3195C3FA2A30807B00E847BB /* ReceiverCell.xib */,
+				3195C4012A3080D200E847BB /* ReceiverImageCell.swift */,
+				3195C4022A3080D200E847BB /* ReceiverImageCell.xib */,
+				3195C3FD2A30809E00E847BB /* ReceiverdocCell.swift */,
+				3195C3FE2A30809E00E847BB /* ReceiverdocCell.xib */,
+				319C0AB92A4AC33F00D7B6BA /* WorkChatEmployeeListCell.swift */,
+				319C0ABA2A4AC33F00D7B6BA /* WorkChatEmployeeListCell.xib */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		45A69B44292F45DE00D3EDFA /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		45A69B45292F45DE00D3EDFA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		45A69B46292F45DF00D3EDFA /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				315B4F4E2A0E314A00CAF6C5 /* EmployeeTimeTrackingCell.swift */,
+				315B4F4F2A0E314A00CAF6C5 /* EmployeeTimeTrackingCell.xib */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		45A69B47292F45EB00D3EDFA /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		45A69B48292F45EC00D3EDFA /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		45A69B49292F45EC00D3EDFA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		45A69B4A292F45FD00D3EDFA /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				45A7069A29B0BBD30046BFC0 /* SchedulerWeekCollectionCell.swift */,
+				45A7069B29B0BBD30046BFC0 /* SchedulerWeekCollectionCell.xib */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		45A69B4B292F45FD00D3EDFA /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				45A7069E29B0EEFD0046BFC0 /* SchedulerShiftTableCell.swift */,
+				45A7069F29B0EEFE0046BFC0 /* SchedulerShiftTableCell.xib */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		45A69B4C292F45FD00D3EDFA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		45A69B4D292F461B00D3EDFA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		45A69B4E292F461B00D3EDFA /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				45BD7482295C29A400C850B4 /* EmployeeTableCell */,
+				45BD7483295C29C000C850B4 /* EmployeePositionTableCell */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		45A69B4F292F461B00D3EDFA /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		45A69B50292F462900D3EDFA /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				4597BDDD292CC93800F387C1 /* DashboardTopCollectionCell.swift */,
+				4597BDDE292CC93800F387C1 /* DashboardTopCollectionCell.xib */,
+				4597BDE5292CCAA800F387C1 /* DashboardTodayScheduledCollectionCell.swift */,
+				4597BDE6292CCAA800F387C1 /* DashboardTodayScheduledCollectionCell.xib */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		45A69B51292F462900D3EDFA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		45A69B52292F462900D3EDFA /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		45A69B7B292F554700D3EDFA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		45A69B99292F556000D3EDFA /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				45A69B87292F554900D3EDFA /* CreateCompanyScheduledPositionsTableCell.swift */,
+				45A69B7E292F554700D3EDFA /* CreateCompanyScheduledPositionsTableCell.xib */,
+				450F1A5829659D3200472ECD /* CreateCompanyScheduledCustomPositionsTableCell.swift */,
+				450F1A5929659D3200472ECD /* CreateCompanyScheduledCustomPositionsTableCell.xib */,
+				45A69B78292F554600D3EDFA /* CreateCompanyEmployeeSetupCell.swift */,
+				45A69B79292F554700D3EDFA /* CreateCompanyEmployeeSetupCell.xib */,
+				45A586652935FCA100DDAF96 /* CreateCompanySchedulerSetupCell.swift */,
+				45A586662935FCA100DDAF96 /* CreateCompanySchedulerSetupCell.xib */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		45A8FB332913CD8300864643 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				45A8FB382913CF1200864643 /* SideMenuTableViewCell.swift */,
+				45A8FB392913CF1200864643 /* SideMenuTableViewCell.xib */,
+				45A8FB342913CDA500864643 /* SideMenuViewController.swift */,
+				45A8FB352913CDA500864643 /* SideMenuViewController.xib */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		45B138342930967E00865F53 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				45F66E682926502E0091C32A /* EmployeeViewModel.swift */,
+				45F66E692926502E0091C32A /* LoginViewModel1.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		45B138372930972000865F53 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				45F66E582926502E0091C32A /* EmployeeModel */,
+				45F66E5B2926502E0091C32A /* LoginModel1 */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		45B138382930974800865F53 /* LoginModel */ = {
+			isa = PBXGroup;
+			children = (
+				45B0AF892930C1F80016D39B /* LoginRequest.swift */,
+				45B0AF8B2930C22D0016D39B /* LoginResponse.swift */,
+			);
+			path = LoginModel;
+			sourceTree = "<group>";
+		};
+		45B1383B293097C400865F53 /* SignUpModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignUpModel;
+			sourceTree = "<group>";
+		};
+		45B1383E2930982500865F53 /* ForgotPasswordModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ForgotPasswordModel;
+			sourceTree = "<group>";
+		};
+		45B1383F2930989A00865F53 /* CreateCompanyViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CreateCompanyViewModel;
+			sourceTree = "<group>";
+		};
+		45B13840293098D300865F53 /* CreateCompanyModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CreateCompanyModel;
+			sourceTree = "<group>";
+		};
+		45BD7482295C29A400C850B4 /* EmployeeTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				45D07C9D29488F9400311194 /* EmployeeTableCell.swift */,
+				45D07C9E29488F9400311194 /* EmployeeTableCell.xib */,
+				684B7D6829489E1000B4C4B0 /* EmployeeListTableCell.swift */,
+				684B7D6929489E1000B4C4B0 /* EmployeeListTableCell.xib */,
+				4528B6E32950B35400616631 /* EmployeeDetailBenefitsCell.swift */,
+				4528B6E42950B35400616631 /* EmployeeDetailBenefitsCell.xib */,
+			);
+			path = EmployeeTableCell;
+			sourceTree = "<group>";
+		};
+		45BD7483295C29C000C850B4 /* EmployeePositionTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				45BD7484295C2A0200C850B4 /* EmployeePositionTableCell.swift */,
+				45BD7485295C2A0300C850B4 /* EmployeePositionTableCell.xib */,
+				45587C18295C5E4900B503A3 /* EmployeeShiftTempBenefitCell.swift */,
+				45587C19295C5E4900B503A3 /* EmployeeShiftTempBenefitCell.xib */,
+				458E67FE29798339003F8466 /* EmployeeDocumentsTableCell.swift */,
+				458E67FF29798339003F8466 /* EmployeeDocumentsTableCell.xib */,
+			);
+			path = EmployeePositionTableCell;
+			sourceTree = "<group>";
+		};
+		45F66E4C2926502E0091C32A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31827EAA2A8E153F0048CBD9 /* Notification */,
+				4573157529A750E80074A2F7 /* WebView */,
+				45A8FB332913CD8300864643 /* SideMenu */,
+				4597BE1B292CFE7000F387C1 /* Tabbar */,
+				4597BDF2292CFA0D00F387C1 /* Chat */,
+				4597BDF1292CF9FF00F387C1 /* Payroll */,
+				4597BDEF292CF9E400F387C1 /* Benefits */,
+				4597BDEE292CF93A00F387C1 /* Bonus */,
+				4597BDED292CF92F00F387C1 /* Work Chat */,
+				3192383B2A25D76D00135CFB /* Profile */,
+				4597BDEC292CF92400F387C1 /* Time Tracking */,
+				4597BDEB292CF91700F387C1 /* Time off Request */,
+				4597BDEA292CF8FD00F387C1 /* Scheduler */,
+				4597BDE9292CF86C00F387C1 /* Employee */,
+				458B689F292CC28E00EE458D /* Dashboard */,
+				459BFA22292BA49800477487 /* CreateCompany */,
+				459BFA1D292B8DD100477487 /* ForgotPassword */,
+				459BFA18292B8D8A00477487 /* SignUp */,
+				457806D0292775CE00355B0C /* LogIn */,
+				457806CF292765E800355B0C /* LogInDemo */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		45F66E4D2926502E0091C32A /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				45F66E4E2926502E0091C32A /* EmployeeTableViewCell.swift */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		45F66E4F2926502E0091C32A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				45F66E502926502E0091C32A /* EmployeeViewControllerExtension.swift */,
+				45F66E512926502E0091C32A /* LoginVCsExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		45F66E542926502E0091C32A /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				45F66E552926502E0091C32A /* LoginValidation.swift */,
+				45F66E562926502E0091C32A /* ValidationResult.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		45F66E572926502E0091C32A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45B13840293098D300865F53 /* CreateCompanyModel */,
+				45B1383E2930982500865F53 /* ForgotPasswordModel */,
+				45B1383B293097C400865F53 /* SignUpModel */,
+				45B138382930974800865F53 /* LoginModel */,
+				45B138372930972000865F53 /* Demo */,
+				45B138432930992000865F53 /* DashboardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		45F66E582926502E0091C32A /* EmployeeModel */ = {
+			isa = PBXGroup;
+			children = (
+				45F66E592926502E0091C32A /* EmployeeRequest.swift */,
+				45F66E5A2926502E0091C32A /* EmployeeResponseModel.swift */,
+			);
+			path = EmployeeModel;
+			sourceTree = "<group>";
+		};
+		45F66E5B2926502E0091C32A /* LoginModel1 */ = {
+			isa = PBXGroup;
+			children = (
+				45F66E5C2926502E0091C32A /* LoginRequest1.swift */,
+				45F66E5D2926502E0091C32A /* LoginResponse1.swift */,
+			);
+			path = LoginModel1;
+			sourceTree = "<group>";
+		};
+		45F66E5E2926502E0091C32A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				459573762913B8340014D34A /* CustomViews */,
+				459573772913B9610014D34A /* CustomNavigationBar */,
+				45F66E602926502E0091C32A /* Utility */,
+				459573712913B8050014D34A /* UITapGesture.swift */,
+				459573722913B8050014D34A /* ValidationManager.swift */,
+				45F66E5F2926502E0091C32A /* Common.swift */,
+				459573672913B75C0014D34A /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		45F66E602926502E0091C32A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				45F66E612926502E0091C32A /* UserDefaultUtility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		45F66E622926502E0091C32A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				45F66E632926502E0091C32A /* HttpUtility.swift */,
+				459573632913B7070014D34A /* Internet.swift */,
+				459573622913B7070014D34A /* ServerClass.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		45F66E642926502E0091C32A /* DataResources */ = {
+			isa = PBXGroup;
+			children = (
+				45F66E652926502E0091C32A /* LoginResource.swift */,
+				45F66E662926502E0091C32A /* EmployeeResource.swift */,
+			);
+			path = DataResources;
+			sourceTree = "<group>";
+		};
+		45F66E672926502E0091C32A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				45B1383F2930989A00865F53 /* CreateCompanyViewModel */,
+				45B138342930967E00865F53 /* Demo */,
+				45B13839293097B900865F53 /* SignUpViewModel.swift */,
+				45B1383C2930980900865F53 /* ForgotPasswordModel.swift */,
+				45B138412930990C00865F53 /* DashboardViewModel.swift */,
+				45B0AF8D2930CE520016D39B /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		48E9E6B56E98D630F81C71AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2292030337F0C07C584456E3 /* Pods-Skazule.debug.xcconfig */,
+				541192D49F011D65C0C804D8 /* Pods-Skazule.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		459573492913B01C0014D34A /* Skazule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4595735E2913B0200014D34A /* Build configuration list for PBXNativeTarget "Skazule" */;
+			buildPhases = (
+				C0058A74F18892AB63AC7EA2 /* [CP] Check Pods Manifest.lock */,
+				459573462913B01C0014D34A /* Sources */,
+				459573472913B01C0014D34A /* Frameworks */,
+				459573482913B01C0014D34A /* Resources */,
+				AA57754737D0DF403DAA1C3C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skazule;
+			packageProductDependencies = (
+				31FA2FCF2A025043008CF240 /* Kingfisher */,
+			);
+			productName = Skazule;
+			productReference = 4595734A2913B01C0014D34A /* Skazule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		459573422913B01C0014D34A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					459573492913B01C0014D34A = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 459573452913B01C0014D34A /* Build configuration list for PBXProject "Skazule" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 459573412913B01C0014D34A;
+			packageReferences = (
+				31FA2FCE2A025043008CF240 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 4595734B2913B01C0014D34A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				459573492913B01C0014D34A /* Skazule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		459573482913B01C0014D34A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450F1A5B29659D3200472ECD /* CreateCompanyScheduledCustomPositionsTableCell.xib in Resources */,
+				684B7D6B29489E1000B4C4B0 /* EmployeeListTableCell.xib in Resources */,
+				45A69B94292F554900D3EDFA /* CreateCompanyScedulerSetupVC.xib in Resources */,
+				315B4F512A0E314A00CAF6C5 /* EmployeeTimeTrackingCell.xib in Resources */,
+				319C0ABC2A4AC33F00D7B6BA /* WorkChatEmployeeListCell.xib in Resources */,
+				45C2F2C229B9CA2100894C02 /* AddEditSchedulerShiftViewController.xib in Resources */,
+				4597BDE0292CC93800F387C1 /* DashboardTopCollectionCell.xib in Resources */,
+				3139C7D12A08DE1F00DEFF33 /* CustomAppliedShiftEmployeeListView.xib in Resources */,
+				686C19B2297E7D6D001C0109 /* CustomUploadDocumentsView.xib in Resources */,
+				315B4F552A0E544800CAF6C5 /* TimeTrackingDetailVC.xib in Resources */,
+				45E3D3082948B80400E445BE /* EmployeeDocumentsVC.xib in Resources */,
+				318D63792A8F8B2D000B65E1 /* TodayScheduledOpenShiftListVC.xib in Resources */,
+				31827EB22A8E1DF10048CBD9 /* NotificationCell.xib in Resources */,
+				3192383F2A25D80D00135CFB /* ProfileVC.xib in Resources */,
+				4597BE0A292CFAED00F387C1 /* WorkChatVC.xib in Resources */,
+				45A69B8B292F554900D3EDFA /* CreateCompanyEmployeeSetupCell.xib in Resources */,
+				45C2F2C629B9EE5700894C02 /* CustomEmployeeListView.xib in Resources */,
+				45587C1F295C6FC400B503A3 /* CustomAddShiftTempView.xib in Resources */,
+				31827EAE2A8E1DB90048CBD9 /* NotificationVC.xib in Resources */,
+				315583ED2A94AA670096BF3D /* CustomUpdateBonusPopUp.xib in Resources */,
+				318EEC5B2A97969300CDBF21 /* EmployeeListImportPopUp.xib in Resources */,
+				45A69B93292F554900D3EDFA /* CreateCompanyThirdStepVC.xib in Resources */,
+				684B7D6329489D4200B4C4B0 /* EmployeeListVC.xib in Resources */,
+				45E3D3042948B7EA00E445BE /* EmployeeShiftTemplatesVC.xib in Resources */,
+				45E3D3002948B7BD00E445BE /* EmployeeTagsVC.xib in Resources */,
+				45A69B8F292F554900D3EDFA /* CreateCompanyScheduledPositionsTableCell.xib in Resources */,
+				45D07CA029488F9400311194 /* EmployeeTableCell.xib in Resources */,
+				45A8FB372913CDA500864643 /* SideMenuViewController.xib in Resources */,
+				45A8FB3B2913CF1200864643 /* SideMenuTableViewCell.xib in Resources */,
+				45D295CD2983E7F3005DB28E /* BonusDetailVC.xib in Resources */,
+				45587C21295C6FEC00B503A3 /* CustomAddBenefitsView.xib in Resources */,
+				318483122A86536F00446DB6 /* WCViewImagePopUp.xib in Resources */,
+				31426E5A2AA7595C004AC5B5 /* EmployeeDocumentsShareHistoryVC.xib in Resources */,
+				4597BDF6292CFA3E00F387C1 /* ChatVC.xib in Resources */,
+				3195C3F02A307FC900E847BB /* SenderCell.xib in Resources */,
+				459BFA21292B9B3C00477487 /* ForgotPasswordVC.xib in Resources */,
+				453C01712962D46E00720F83 /* CustomAddTagView.xib in Resources */,
+				459573892913B9610014D34A /* CustomNavigationBar.xib in Resources */,
+				318233342A7B884800A1808C /* WCAddParticipantPopUP.xib in Resources */,
+				45E3D3102948C4D900E445BE /* AddNewEmployeeVC.xib in Resources */,
+				451304A629C8895C008F1B15 /* TimeOffRequestDetailVC.xib in Resources */,
+				3195C3F82A30802700E847BB /* SenderImageCell.xib in Resources */,
+				4595735A2913B0200014D34A /* LaunchScreen.storyboard in Resources */,
+				318B50402B5683B2000EF151 /* GoogleService-Info.plist in Resources */,
+				4597BDE8292CCAA800F387C1 /* DashboardTodayScheduledCollectionCell.xib in Resources */,
+				319E80682A26238100365987 /* ProfilePurchasedListCell.xib in Resources */,
+				3165AA982A93530C0075B1D4 /* CountryPickerCell.xib in Resources */,
+				458E680129798339003F8466 /* EmployeeDocumentsTableCell.xib in Resources */,
+				4528B6E62950B35400616631 /* EmployeeDetailBenefitsCell.xib in Resources */,
+				45BD7487295C2A0300C850B4 /* EmployeePositionTableCell.xib in Resources */,
+				45BD748B295C36C500C850B4 /* CustomAddPositionView.xib in Resources */,
+				45BD125C29B5D8DF008DBCE5 /* CustomSchedulerAddOpenShiftView.xib in Resources */,
+				453FD8F72949F3890003EBCF /* CustomChooseImgView.xib in Resources */,
+				318D471C2A4C18A900DB4032 /* WorkChatDetailChatVC.xib in Resources */,
+				318C64B32A56F1DA0038D624 /* WCCreateGroupVC.xib in Resources */,
+				4597BE06292CFAD500F387C1 /* BonusVC.xib in Resources */,
+				6890283E298020F300814092 /* BenefitsDetailVC.xib in Resources */,
+				318D637D2A8F908F000B65E1 /* TodayOpenShiftCell.xib in Resources */,
+				45A7069D29B0BBD30046BFC0 /* SchedulerWeekCollectionCell.xib in Resources */,
+				4595738C2913B9610014D34A /* CustomNavigationBarForDrawer.xib in Resources */,
+				3165AA9C2A9353900075B1D4 /* CountryPickerVC.xib in Resources */,
+				4597BE0E292CFB0300F387C1 /* TimeTrackingVC.xib in Resources */,
+				4597BE12292CFB2300F387C1 /* TimeOffRequestVC.xib in Resources */,
+				45E3D30C2948B82300E445BE /* EmployeeBenefitsVC.xib in Resources */,
+				456BB1432983F97C0004E7E7 /* AssignBonusVC.xib in Resources */,
+				457806D4292776FF00355B0C /* LoginVC.xib in Resources */,
+				45A69B95292F554900D3EDFA /* CreateCompanyVC.xib in Resources */,
+				4528B6E229508B5900616631 /* EmployeeDetailVC.xib in Resources */,
+				45F2EA8C2949DF6100FE6E66 /* CustomWeekListView.xib in Resources */,
+				45A586682935FCA100DDAF96 /* CreateCompanySchedulerSetupCell.xib in Resources */,
+				45587C1B295C5E4900B503A3 /* EmployeeShiftTempBenefitCell.xib in Resources */,
+				4597BDFA292CFA5B00F387C1 /* PayrollVC.xib in Resources */,
+				456ECC68293F3CB70008DB0C /* CompanyRegistrationCompleteVc.xib in Resources */,
+				45A69B90292F554900D3EDFA /* CreateCompanyScheduledPositionsVC.xib in Resources */,
+				3168A35E2A30A66700BF0B66 /* ChatEmployeeListVC.xib in Resources */,
+				4595738E2913B9610014D34A /* HeaderView.xib in Resources */,
+				459573572913B0200014D34A /* Assets.xcassets in Resources */,
+				45BD748F295C375600C850B4 /* CustomColorPickerView.xib in Resources */,
+				459573552913B01C0014D34A /* Main.storyboard in Resources */,
+				311D7D772ABAC9A300FB7EB9 /* CreateCompanyScedulerSetupNewVC.xib in Resources */,
+				45E3D2FC2948B7A500E445BE /* EmployeePositionsVC.xib in Resources */,
+				319238432A25D83B00135CFB /* UpdateProfileVC.xib in Resources */,
+				4597BE16292CFB3B00F387C1 /* SchedulerVC.xib in Resources */,
+				450F1A5729657B7700472ECD /* CreateCompanyScheduledPositionsViewController.xib in Resources */,
+				68DB49A729E96314007A1478 /* SchedulerDetailVC.xib in Resources */,
+				45A69B8E292F554900D3EDFA /* CreateCompanyEmployeeSetupVC.xib in Resources */,
+				459BFA1C292B8DBA00477487 /* SignUpVC.xib in Resources */,
+				4597BDFE292CFA8C00F387C1 /* BenefitsVC.xib in Resources */,
+				4595738F2913B9610014D34A /* CustomHeaderView.xib in Resources */,
+				3142E7DF2A729A9500710FF1 /* WCSettingPopUp.xib in Resources */,
+				4573157929A7510F0074A2F7 /* WebKitViewController.xib in Resources */,
+				4597BDDC292CC60B00F387C1 /* DashboardVC.xib in Resources */,
+				45A69B9D292F6A4400D3EDFA /* OtpVerifyVC.xib in Resources */,
+				4597BE1A292CFB5900F387C1 /* EmployeeVC.xib in Resources */,
+				3195C4002A30809E00E847BB /* ReceiverdocCell.xib in Resources */,
+				4597BE1E292CFE7000F387C1 /* TabBarViewController.xib in Resources */,
+				3195C3F42A307FEE00E847BB /* SenderdocCell.xib in Resources */,
+				45A69B96292F554900D3EDFA /* CreateCompanySecondVC.xib in Resources */,
+				45950A0229ADF31E0029BF1E /* SearchViewController.xib in Resources */,
+				3144EB232A24869800B89472 /* CustomEditTimeTrackingView.xib in Resources */,
+				4517178429C98B1D00F0C9AC /* CustomEmployeeListDocShareView.xib in Resources */,
+				317E3B312A56A79A00BAE62E /* WCEmployeeListVC.xib in Resources */,
+				3195C3FC2A30807B00E847BB /* ReceiverCell.xib in Resources */,
+				3142E7DB2A72818200710FF1 /* WorkChatGroupInfoVC.xib in Resources */,
+				3172E8AE2AB86A80000D6983 /* CreateCompanyEmployeeSetupNewVC.xib in Resources */,
+				45A706A129B0EEFE0046BFC0 /* SchedulerShiftTableCell.xib in Resources */,
+				3195C4042A3080D200E847BB /* ReceiverImageCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA57754737D0DF403DAA1C3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Skazule/Pods-Skazule-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Skazule/Pods-Skazule-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Skazule/Pods-Skazule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0058A74F18892AB63AC7EA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Skazule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		459573462913B01C0014D34A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F66E6E2926502E0091C32A /* EmployeeViewController.swift in Sources */,
+				45E3D2FB2948B7A500E445BE /* EmployeePositionsVC.swift in Sources */,
+				45A69B91292F554900D3EDFA /* CreateCompanyScheduledPositionsVC.swift in Sources */,
+				45E3D3032948B7EA00E445BE /* EmployeeShiftTemplatesVC.swift in Sources */,
+				3142E7DA2A72818200710FF1 /* WorkChatGroupInfoVC.swift in Sources */,
+				315B4F502A0E314A00CAF6C5 /* EmployeeTimeTrackingCell.swift in Sources */,
+				319E80672A26238100365987 /* ProfilePurchasedListCell.swift in Sources */,
+				3144EB212A24867E00B89472 /* CustomEditTimeTrackingView.swift in Sources */,
+				311D7D762ABAC9A300FB7EB9 /* CreateCompanyScedulerSetupNewVC.swift in Sources */,
+				31DE32182A52E4FF001A69EC /* Date.swift in Sources */,
+				45B0AF8C2930C22D0016D39B /* LoginResponse.swift in Sources */,
+				318EEC592A97967400CDBF21 /* EmployeeListImportPopUp.swift in Sources */,
+				45F66E712926502E0091C32A /* EmployeeRequest.swift in Sources */,
+				3165AA9B2A9353900075B1D4 /* CountryPickerVC.swift in Sources */,
+				3136468C2A5EB4CA00364C70 /* ChatViewModelBackUp.swift in Sources */,
+				315B4F542A0E544800CAF6C5 /* TimeTrackingDetailVC.swift in Sources */,
+				4597BE05292CFAD500F387C1 /* BonusVC.swift in Sources */,
+				3195C3EB2A30799100E847BB /* FirebaseUser.swift in Sources */,
+				4595738B2913B9610014D34A /* CustomNavigationBar.swift in Sources */,
+				314F7E812A65196F00F36EF4 /* WorkChatBackUpVC.swift in Sources */,
+				3122B6732A821CA7002E6216 /* PushNotificationManager.swift in Sources */,
+				453C016F2962D45B00720F83 /* CustomAddTagView.swift in Sources */,
+				3162DAB82A2A27D6001CBABE /* UIDevice+Extension.swift in Sources */,
+				684B7D6229489D4200B4C4B0 /* EmployeeListVC.swift in Sources */,
+				45F66E732926502E0091C32A /* LoginRequest1.swift in Sources */,
+				3168A35D2A30A66700BF0B66 /* ChatEmployeeListVC.swift in Sources */,
+				45C2F2C129B9CA2100894C02 /* AddEditSchedulerShiftViewController.swift in Sources */,
+				4597BDDF292CC93800F387C1 /* DashboardTopCollectionCell.swift in Sources */,
+				457806D72927784100355B0C /* LoginVCExtension.swift in Sources */,
+				45F66E702926502E0091C32A /* ValidationResult.swift in Sources */,
+				450F1A5629657B7700472ECD /* CreateCompanyScheduledPositionsViewController.swift in Sources */,
+				4595738A2913B9610014D34A /* CustomNavigationBarForDrawer.swift in Sources */,
+				3172E8AD2AB86A80000D6983 /* CreateCompanyEmployeeSetupNewVC.swift in Sources */,
+				31807C2D2A98B61F0060B551 /* SRTimeOffRequestModel.swift in Sources */,
+				453FD8F92949F39F0003EBCF /* CustomChooseImgView.swift in Sources */,
+				31827EB12A8E1DF10048CBD9 /* NotificationCell.swift in Sources */,
+				314F7E7F2A65165000F36EF4 /* ChatViewModelTest.swift in Sources */,
+				3141BD982AD0444C00A3A01C /* File.swift in Sources */,
+				31807C272A98A3520060B551 /* SREmployeePositionModel.swift in Sources */,
+				4597BE15292CFB3B00F387C1 /* SchedulerVC.swift in Sources */,
+				3122B6722A821CA7002E6216 /* PushNotificationSender.swift in Sources */,
+				4597BE11292CFB2300F387C1 /* TimeOffRequestVC.swift in Sources */,
+				4597BE0D292CFB0300F387C1 /* TimeTrackingVC.swift in Sources */,
+				31807C312A98B7610060B551 /* SRProfileModel.swift in Sources */,
+				459573742913B8050014D34A /* ValidationManager.swift in Sources */,
+				3195C3EF2A307FC900E847BB /* SenderCell.swift in Sources */,
+				3195C3FB2A30807B00E847BB /* ReceiverCell.swift in Sources */,
+				4597BDF9292CFA5B00F387C1 /* PayrollVC.swift in Sources */,
+				3195C4032A3080D200E847BB /* ReceiverImageCell.swift in Sources */,
+				318D63782A8F8B2D000B65E1 /* TodayScheduledOpenShiftListVC.swift in Sources */,
+				459573682913B75C0014D34A /* Constants.swift in Sources */,
+				31FA2FD22A025126008CF240 /* UIImageView + Extension.swift in Sources */,
+				4597BDE7292CCAA800F387C1 /* DashboardTodayScheduledCollectionCell.swift in Sources */,
+				4528B6E52950B35400616631 /* EmployeeDetailBenefitsCell.swift in Sources */,
+				31807C2B2A98AA3B0060B551 /* SRSchedulerModel.swift in Sources */,
+				318D47202A4C464100DB4032 /* ChatViewModel.swift in Sources */,
+				45A69B97292F554900D3EDFA /* CreateCompanyEmployeeSetupVC.swift in Sources */,
+				4595738D2913B9610014D34A /* RoundedCornerView.swift in Sources */,
+				3192383E2A25D80D00135CFB /* ProfileVC.swift in Sources */,
+				318C64B22A56F1DA0038D624 /* WCCreateGroupVC.swift in Sources */,
+				45BD748D295C373E00C850B4 /* CustomColorPickerView.swift in Sources */,
+				458E680029798339003F8466 /* EmployeeDocumentsTableCell.swift in Sources */,
+				31B3467F2A84C8C100A2C638 /* UIImage + Extension.swift in Sources */,
+				318D47222A4C474400DB4032 /* Encodable.swift in Sources */,
+				319C0ABB2A4AC33F00D7B6BA /* WorkChatEmployeeListCell.swift in Sources */,
+				45A69B98292F554900D3EDFA /* CreateCompanyScheduledPositionsTableCell.swift in Sources */,
+				4597BDFD292CFA8C00F387C1 /* BenefitsVC.swift in Sources */,
+				45BD7489295C366F00C850B4 /* CustomAddPositionView.swift in Sources */,
+				3195C3F72A30802700E847BB /* SenderImageCell.swift in Sources */,
+				459BFA1B292B8DBA00477487 /* SignUpVC.swift in Sources */,
+				3195C3F32A307FEE00E847BB /* SenderdocCell.swift in Sources */,
+				3162DAB92A2A27D6001CBABE /* UIFontSize.swift in Sources */,
+				45B138422930990C00865F53 /* DashboardViewModel.swift in Sources */,
+				318D637C2A8F908F000B65E1 /* TodayOpenShiftCell.swift in Sources */,
+				45F66E6B2926502E0091C32A /* EmployeeViewControllerExtension.swift in Sources */,
+				45F66E782926502E0091C32A /* LoginResource.swift in Sources */,
+				45A69B8C292F554900D3EDFA /* CreateCompanyVC.swift in Sources */,
+				45B1383D2930980900865F53 /* ForgotPasswordModel.swift in Sources */,
+				45D07C9F29488F9400311194 /* EmployeeTableCell.swift in Sources */,
+				45F66E762926502E0091C32A /* UserDefaultUtility.swift in Sources */,
+				45587C1A295C5E4900B503A3 /* EmployeeShiftTempBenefitCell.swift in Sources */,
+				318D471B2A4C18A900DB4032 /* WorkChatDetailChatVC.swift in Sources */,
+				4597BE09292CFAED00F387C1 /* WorkChatVC.swift in Sources */,
+				45B1383A293097B900865F53 /* SignUpViewModel.swift in Sources */,
+				45BD7486295C2A0300C850B4 /* EmployeePositionTableCell.swift in Sources */,
+				459BFA20292B9B3C00477487 /* ForgotPasswordVC.swift in Sources */,
+				45E3D3072948B80400E445BE /* EmployeeDocumentsVC.swift in Sources */,
+				4597BE1F292CFE7000F387C1 /* TabBarViewController.swift in Sources */,
+				45F66E6F2926502E0091C32A /* LoginValidation.swift in Sources */,
+				45A706A029B0EEFE0046BFC0 /* SchedulerShiftTableCell.swift in Sources */,
+				456ECC67293F3CB70008DB0C /* CompanyRegistrationCompleteVc.swift in Sources */,
+				453FD8F52949E5710003EBCF /* CustomWeekListView.swift in Sources */,
+				45A69B8A292F554900D3EDFA /* CreateCompanyEmployeeSetupCell.swift in Sources */,
+				6890283D298020F300814092 /* BenefitsDetailVC.swift in Sources */,
+				45B0AF8A2930C1F80016D39B /* LoginRequest.swift in Sources */,
+				31827EAD2A8E1DB90048CBD9 /* NotificationVC.swift in Sources */,
+				45F66E7A2926502E0091C32A /* EmployeeViewModel.swift in Sources */,
+				45F66E772926502E0091C32A /* HttpUtility.swift in Sources */,
+				4517178229C98B0D00F0C9AC /* CustomEmployeeListDocShareView.swift in Sources */,
+				4595736D2913B7C50014D34A /* Extensions.swift in Sources */,
+				4597BE19292CFB5900F387C1 /* EmployeeVC.swift in Sources */,
+				4573157829A7510F0074A2F7 /* WebKitViewController.swift in Sources */,
+				45F66E722926502E0091C32A /* EmployeeResponseModel.swift in Sources */,
+				45A69B9C292F6A4400D3EDFA /* OtpVerifyVC.swift in Sources */,
+				319238422A25D83B00135CFB /* UpdateProfileVC.swift in Sources */,
+				45A69B89292F554900D3EDFA /* CreateCompanySecondVC.swift in Sources */,
+				31807C372A98C14C0060B551 /* SRDashboardModel.swift in Sources */,
+				4597BDDB292CC60B00F387C1 /* DashboardVC.swift in Sources */,
+				451304A529C8895C008F1B15 /* TimeOffRequestDetailVC.swift in Sources */,
+				45F66E6A2926502E0091C32A /* EmployeeTableViewCell.swift in Sources */,
+				3142E7DD2A729A8500710FF1 /* WCSettingPopUp.swift in Sources */,
+				45F66E752926502E0091C32A /* Common.swift in Sources */,
+				315F84C72B4BE3C10098F162 /* WorkChatGroupInfoVCOld.swift in Sources */,
+				318483102A86535400446DB6 /* WCViewImagePopUp.swift in Sources */,
+				459573642913B7070014D34A /* ServerClass.swift in Sources */,
+				45B0AF8E2930CE520016D39B /* LoginViewModel.swift in Sources */,
+				45A7069C29B0BBD30046BFC0 /* SchedulerWeekCollectionCell.swift in Sources */,
+				31807C292A98A4370060B551 /* SREmployeeDocumentModel.swift in Sources */,
+				318D47242A4C492500DB4032 /* NSObjectExtension.swift in Sources */,
+				45F66E6D2926502E0091C32A /* LoginViewController.swift in Sources */,
+				45950A0129ADF31E0029BF1E /* SearchViewController.swift in Sources */,
+				45D295CC2983E7F3005DB28E /* BonusDetailVC.swift in Sources */,
+				45A586672935FCA100DDAF96 /* CreateCompanySchedulerSetupCell.swift in Sources */,
+				3195C3FF2A30809E00E847BB /* ReceiverdocCell.swift in Sources */,
+				3165AA972A93530C0075B1D4 /* CountryPickerCell.swift in Sources */,
+				459573732913B8050014D34A /* UITapGesture.swift in Sources */,
+				457806D3292776FF00355B0C /* LoginVC.swift in Sources */,
+				4597BDF5292CFA3E00F387C1 /* ChatVC.swift in Sources */,
+				313490D42A03A7190025BF15 /* SchedulerBackUpListScreenController.swift in Sources */,
+				45A69B8D292F554900D3EDFA /* CreateCompanyScedulerSetupVC.swift in Sources */,
+				686C19B0297E7D5D001C0109 /* CustomUploadDocumentsView.swift in Sources */,
+				317E3B302A56A79A00BAE62E /* WCEmployeeListVC.swift in Sources */,
+				45BD125E29B5D90A008DBCE5 /* CustomSchedulerAddOpenShiftView.swift in Sources */,
+				456BB1422983F97C0004E7E7 /* AssignBonusVC.swift in Sources */,
+				31807C332A98B80B0060B551 /* SREmployerBonusModel.swift in Sources */,
+				459573912913B9610014D34A /* CustomHeaderView.swift in Sources */,
+				684B7D6A29489E1000B4C4B0 /* EmployeeListTableCell.swift in Sources */,
+				459573522913B01C0014D34A /* ViewController.swift in Sources */,
+				459573652913B7070014D34A /* Internet.swift in Sources */,
+				45B138442930992000865F53 /* DashboardModel.swift in Sources */,
+				45E3D2FF2948B7BD00E445BE /* EmployeeTagsVC.swift in Sources */,
+				45587C23295C701100B503A3 /* CustomAddBenefitsView.swift in Sources */,
+				45A8FB3A2913CF1200864643 /* SideMenuTableViewCell.swift in Sources */,
+				31DE321A2A52E9BB001A69EC /* UIView.swift in Sources */,
+				4595734E2913B01C0014D34A /* AppDelegate.swift in Sources */,
+				45A69B92292F554900D3EDFA /* CreateCompanyThirdStepVC.swift in Sources */,
+				318D471E2A4C463500DB4032 /* UserViewModel.swift in Sources */,
+				31807C352A98B8B60060B551 /* SREmployerBenefitsModel.swift in Sources */,
+				45F66E742926502E0091C32A /* LoginResponse1.swift in Sources */,
+				31807C252A98A1410060B551 /* SREmployeeModel.swift in Sources */,
+				3139C7CF2A08DDBC00DEFF33 /* CustomAppliedShiftEmployeeListView.swift in Sources */,
+				31807C2F2A98B6DF0060B551 /* SRTimeTrackingModel.swift in Sources */,
+				315583EF2A94AAB20096BF3D /* CustomUpdateBonusPopUp.swift in Sources */,
+				459573922913B9610014D34A /* CardView.swift in Sources */,
+				45A8FB362913CDA500864643 /* SideMenuViewController.swift in Sources */,
+				45F66E792926502E0091C32A /* EmployeeResource.swift in Sources */,
+				3195C3EC2A30799100E847BB /* Message.swift in Sources */,
+				45E3D30B2948B82300E445BE /* EmployeeBenefitsVC.swift in Sources */,
+				459573902913B9610014D34A /* HeaderView.swift in Sources */,
+				45C2F2C429B9EE4400894C02 /* CustomEmployeeListView.swift in Sources */,
+				68DB49A629E96314007A1478 /* SchedulerDetailVC.swift in Sources */,
+				45F66E7B2926502E0091C32A /* LoginViewModel1.swift in Sources */,
+				318233362A7B887C00A1808C /* WCAddParticipantPopUP.swift in Sources */,
+				4528B6E129508B5900616631 /* EmployeeDetailVC.swift in Sources */,
+				31426E592AA7595C004AC5B5 /* EmployeeDocumentsShareHistoryVC.swift in Sources */,
+				45F66E6C2926502E0091C32A /* LoginVCsExtension.swift in Sources */,
+				45587C1D295C6FAC00B503A3 /* CustomAddShiftTempView.swift in Sources */,
+				450F1A5A29659D3200472ECD /* CreateCompanyScheduledCustomPositionsTableCell.swift in Sources */,
+				45E3D30F2948C4D900E445BE /* AddNewEmployeeVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		459573532913B01C0014D34A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				459573542913B01C0014D34A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		459573582913B0200014D34A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				459573592913B0200014D34A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4595735C2913B0200014D34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4595735D2913B0200014D34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4595735F2913B0200014D34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2292030337F0C07C584456E3 /* Pods-Skazule.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Skazule/Skazule.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = S8FTJ9CDM2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Skazule/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Skazule_R;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Skazule App access camera for upload profile picture.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Skazule App access library for download and save excel docs.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Skazule-Employer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Skazule-R_Dis_Pro_Profile";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		459573602913B0200014D34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 541192D49F011D65C0C804D8 /* Pods-Skazule.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Skazule/Skazule.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = S8FTJ9CDM2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Skazule/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Skazule_R;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Skazule App access camera for upload profile picture.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Skazule App access library for download and save excel docs.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Skazule-Employer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Skazule-R_Dis_Pro_Profile";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		459573452913B01C0014D34A /* Build configuration list for PBXProject "Skazule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4595735C2913B0200014D34A /* Debug */,
+				4595735D2913B0200014D34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4595735E2913B0200014D34A /* Build configuration list for PBXNativeTarget "Skazule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4595735F2913B0200014D34A /* Debug */,
+				459573602913B0200014D34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		31FA2FCE2A025043008CF240 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		31FA2FCF2A025043008CF240 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31FA2FCE2A025043008CF240 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 459573422913B01C0014D34A /* Project object */;
+}

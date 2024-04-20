@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreateCompanyVC" customModule="Skazule" customModuleProvider="target">
+            <connections>
+                <outlet property="companyDesLbl" destination="JDM-4e-oBq" id="7l9-BJ-GYV"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="create_company_bg" translatesAutoresizingMaskIntoConstraints="NO" id="NNv-tF-vVE">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zk4-fJ-Dye">
+                    <rect key="frame" x="284" y="60" width="100" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="LTI-zx-0Xq"/>
+                        <constraint firstAttribute="height" constant="30" id="PEG-IQ-asr"/>
+                    </constraints>
+                    <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Back" image="back">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="onTapBackButton:" destination="-1" eventType="touchUpInside" id="cMq-RJ-g5J"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c0G-dg-lVN">
+                    <rect key="frame" x="20" y="315" width="374" height="266.5"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="sqR-Of-s6S">
+                            <rect key="frame" x="20" y="30" width="334" height="206.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Your Company" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zyz-WH-3uz">
+                                    <rect key="frame" x="0.0" y="0.0" width="334" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="IRb-Al-HJK"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JDM-4e-oBq">
+                                    <rect key="frame" x="0.0" y="50" width="334" height="76.5"/>
+                                    <string key="text">Post the work schedule,share your work availability, chat with coworkers,or create a new company          Start by searching business name,address or workplace id</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oph-ZH-tD4">
+                                    <rect key="frame" x="0.0" y="146.5" width="334" height="60"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUK-wr-2VK">
+                                            <rect key="frame" x="67" y="10" width="200" height="50"/>
+                                            <color key="backgroundColor" name="ButtonColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="200" id="1uY-2Q-GYP"/>
+                                                <constraint firstAttribute="height" constant="50" id="kQY-w6-c8K"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="CREATE A COMPANY">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="25"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="onTapCreateCompanyButton:" destination="-1" eventType="touchUpInside" id="gJi-8L-dtB"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="60" id="9DF-8E-IUm"/>
+                                        <constraint firstItem="WUK-wr-2VK" firstAttribute="centerX" secondItem="oph-ZH-tD4" secondAttribute="centerX" id="G4l-jz-LPW"/>
+                                        <constraint firstAttribute="bottom" secondItem="WUK-wr-2VK" secondAttribute="bottom" id="Jwa-HW-3Zb"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="sqR-Of-s6S" secondAttribute="bottom" constant="30" id="3Xb-mp-15t"/>
+                        <constraint firstItem="sqR-Of-s6S" firstAttribute="leading" secondItem="c0G-dg-lVN" secondAttribute="leading" constant="20" id="JLF-en-FST"/>
+                        <constraint firstItem="sqR-Of-s6S" firstAttribute="top" secondItem="c0G-dg-lVN" secondAttribute="top" constant="30" id="P1W-hV-Pqn"/>
+                        <constraint firstAttribute="trailing" secondItem="sqR-Of-s6S" secondAttribute="trailing" constant="20" id="c7T-pm-3uB"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="maskToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Zk4-fJ-Dye" secondAttribute="trailing" constant="30" id="AGf-o9-HYC"/>
+                <constraint firstItem="Zk4-fJ-Dye" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="60" id="CmN-nr-3yD"/>
+                <constraint firstItem="c0G-dg-lVN" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="EFi-LT-V8M"/>
+                <constraint firstItem="NNv-tF-vVE" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Jd9-Ti-K6E"/>
+                <constraint firstItem="NNv-tF-vVE" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="YV4-lc-Hid"/>
+                <constraint firstItem="c0G-dg-lVN" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="dZc-Ux-d4Z"/>
+                <constraint firstItem="NNv-tF-vVE" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="eYY-j3-PLu"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="c0G-dg-lVN" secondAttribute="trailing" constant="20" id="epJ-bL-0Ui"/>
+                <constraint firstAttribute="bottom" secondItem="NNv-tF-vVE" secondAttribute="bottom" id="g65-Vh-e6S"/>
+                <constraint firstItem="NNv-tF-vVE" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="gd6-UP-9ec"/>
+                <constraint firstItem="c0G-dg-lVN" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="oGg-bg-zPt"/>
+                <constraint firstItem="NNv-tF-vVE" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="ukP-Vh-EnE"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="81.696428571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back" width="26" height="26"/>
+        <image name="create_company_bg" width="621" height="1344"/>
+        <namedColor name="ButtonColor">
+            <color red="0.039215686274509803" green="0.29411764705882354" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

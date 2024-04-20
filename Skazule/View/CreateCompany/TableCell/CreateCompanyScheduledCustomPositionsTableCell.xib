@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CreateCompanyScheduledCustomPositionsTableCell" id="KGk-i7-Jjw" customClass="CreateCompanyScheduledCustomPositionsTableCell" customModule="Skazule" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P8e-rx-t1m">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dg-wW-kkc">
+                                <rect key="frame" x="20" y="15" width="225" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lLj-DJ-ob1">
+                                <rect key="frame" x="255" y="12.5" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="Kcw-zh-MWi"/>
+                                    <constraint firstAttribute="height" constant="25" id="cD8-f5-bgt"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="checked"/>
+                                <state key="selected" image="checked"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kno-Qf-Nc9">
+                                <rect key="frame" x="290" y="14" width="20" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="eRp-a0-kGf"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="delete"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lLj-DJ-ob1" firstAttribute="leading" secondItem="7dg-wW-kkc" secondAttribute="trailing" constant="10" id="0nC-ZC-MGn"/>
+                            <constraint firstItem="kno-Qf-Nc9" firstAttribute="leading" secondItem="lLj-DJ-ob1" secondAttribute="trailing" constant="10" id="7Bb-es-ov6"/>
+                            <constraint firstAttribute="trailing" secondItem="kno-Qf-Nc9" secondAttribute="trailing" constant="10" id="EcE-5h-PLw"/>
+                            <constraint firstItem="lLj-DJ-ob1" firstAttribute="centerY" secondItem="P8e-rx-t1m" secondAttribute="centerY" id="Kvr-Sg-vQ6"/>
+                            <constraint firstAttribute="bottom" secondItem="7dg-wW-kkc" secondAttribute="bottom" constant="14.5" id="P1C-46-MWf"/>
+                            <constraint firstItem="7dg-wW-kkc" firstAttribute="leading" secondItem="P8e-rx-t1m" secondAttribute="leading" constant="20" id="PRb-Tp-N5E"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="Rg1-Ij-9qz"/>
+                            <constraint firstItem="7dg-wW-kkc" firstAttribute="top" secondItem="P8e-rx-t1m" secondAttribute="top" constant="15" id="Xwt-9x-4Pg"/>
+                            <constraint firstItem="kno-Qf-Nc9" firstAttribute="centerY" secondItem="lLj-DJ-ob1" secondAttribute="centerY" id="YWE-z9-8XV"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="P8e-rx-t1m" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="A5J-6D-g6g"/>
+                    <constraint firstAttribute="bottom" secondItem="P8e-rx-t1m" secondAttribute="bottom" id="Lln-MI-e2U"/>
+                    <constraint firstItem="P8e-rx-t1m" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="dWS-bC-XhC"/>
+                    <constraint firstAttribute="trailing" secondItem="P8e-rx-t1m" secondAttribute="trailing" id="iWg-DY-j5U"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="customPositionNameLbl" destination="7dg-wW-kkc" id="9Jf-C1-8Yh"/>
+                <outlet property="deleteBtn" destination="kno-Qf-Nc9" id="U2V-3c-EQB"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="80.357142857142847"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="checked" width="20" height="20"/>
+        <image name="delete" width="19.5" height="19.5"/>
+    </resources>
+</document>

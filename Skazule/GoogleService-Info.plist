@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>892406253431-jqd5kabn8j5ps9og8u4lk99tpdi4b0uv.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDZxxrFAKsR4i7qk7C3eKBJaZMCEnnv_B4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>892406253431</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Skazule-Employer</string>
+	<key>PROJECT_ID</key>
+	<string>skazule-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>skazule-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:892406253431:ios:195042e1745baf3d150372</string>
+	<key>DATABASE_URL</key>
+	<string>https://skazule-app-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
